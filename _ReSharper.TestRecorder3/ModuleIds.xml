@@ -1,6 +1,0 @@
-<Modules>
-  <Module PersistentId="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46" ModuleId="TestRecorder3" />
-  <Module PersistentId="csExWB, Version=2.0.0.2, Culture=neutral, PublicKeyToken=null" ModuleId="csExWB" />
-  <Module PersistentId="FF47BDC7-7BF0-4BB1-AA11-4F7365B31EEA" ModuleId="RecorderTest" />
-  <Module PersistentId="csExWB, Version=2.0.0.2, Culture=neutral, PublicKeyToken=null" ModuleId="csExWB_1" />
-</Modules>
