@@ -1,0 +1,46 @@
+<settings>
+  <TemplateName>VB.Net NUnit</TemplateName>
+  <CodeLanguage>VBNet</CodeLanguage>
+  <CanRun>0</CanRun>
+  <CanCompile>1</CanCompile>
+  <FileExtension>*.vb</FileExtension>
+  <ReferencedAssemblies>%NETPATH%\System.dll
+%NETPATH%\System.Data.dll
+%NETPATH%\System.XML.dll
+%APPPATH%\WatiN.Core.dll
+%APPPATH%\Interop.SHDocVw.dll
+C:\Program Files\NUnit 2.4\bin\nunit.framework.dll
+</ReferencedAssemblies>
+  <UsingFormat>Imports USINGNAMESPACE</UsingFormat>
+  <code>
+Imports System
+Imports System.IO
+Imports System.Threading
+Imports WatiN.Core
+Imports WatiN.Core.DialogHandlers
+Imports WatiN.Core.Exceptions
+Imports WatiN.Core.Interfaces
+Imports WatiN.Core.Logging
+Imports NUnit.Framework
+
+Namespace TestSpace
+   &lt;TestFixture()&gt;  _
+   Public Class TestClass
+      
+      TESTMETHODCODE
+
+   End Class 'TestClass 
+End Namespace 'TestSpace
+</code>
+  <Method>
+  &lt;Test()&gt;  _
+Public Sub TESTNAME()
+TESTCODE
+End Sub 'test 
+</Method>
+  <Name>VB.Net NUnit</Name>
+  <IncludedFiles>
+  </IncludedFiles>
+  <StartupApplication>
+  </StartupApplication>
+</settings>

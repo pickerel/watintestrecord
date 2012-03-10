@@ -1,0 +1,12 @@
+C:\Work\TestRecorder3\tests\RecorderTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Work\TestRecorder3\tests\RecorderTest\bin\Debug\RecorderTest.dll
+C:\Work\TestRecorder3\tests\RecorderTest\bin\Debug\RecorderTest.pdb
+C:\Work\TestRecorder3\tests\RecorderTest\bin\Debug\csExWB.dll
+C:\Work\TestRecorder3\tests\RecorderTest\bin\Debug\nunit.framework.dll
+C:\Work\TestRecorder3\tests\RecorderTest\bin\Debug\nunit.framework.xml
+C:\Work\TestRecorder3\tests\RecorderTest\obj\Debug\RecorderTest.dll
+C:\Work\TestRecorder3\tests\RecorderTest\obj\Debug\RecorderTest.pdb
+C:\Work\TestRecorder3\tests\RecorderTest\bin\Debug\RecorderTest.dll.config
+C:\Work\TestRecorder3\tests\RecorderTest\bin\Debug\TestRecorder.exe
+C:\Work\TestRecorder3\tests\RecorderTest\bin\Debug\TestRecorder.pdb
+C:\Work\TestRecorder3\tests\RecorderTest\bin\Debug\FileDlgExtenders.dll

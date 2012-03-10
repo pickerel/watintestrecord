@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RecorderData>
+	<ActionList>
+		<Action Class="TestRecorder.Core.Actions.ActionClick">
+			<Window>window</Window>
+			<Guid type="System.String">3a123f7f-59fd-4d2d-9afd-85380d41c7a1</Guid>
+			<FindAttributeCollection TagName="Text" ActionUrl="">
+				<FindAttribute FindName="id" Regex="0">name</FindAttribute>
+			</FindAttributeCollection>
+		</Action>
+	</ActionList>
+	<WindowList>
+		<Window name="window">
+			<Title />
+			<Url />
+		</Window>
+	</WindowList>
+</RecorderData>

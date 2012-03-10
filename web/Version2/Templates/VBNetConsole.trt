@@ -1,0 +1,47 @@
+<settings>
+<TemplateName>VB.Net Console</TemplateName>
+<CodeLanguage>VBNet</CodeLanguage>
+<CanRun>1</CanRun>
+<CanCompile>1</CanCompile>
+<FileExtension>*.vb</FileExtension>
+
+<ReferencedAssemblies>
+%NETPATH%\System.dll
+%NETPATH%\System.Data.dll
+%NETPATH%\System.XML.dll
+%APPPATH%\Interop.SHDocVw.dll
+%APPPATH%\WatiN.Core.dll
+</ReferencedAssemblies>
+
+<UsingFormat>Imports USINGNAMESPACE</UsingFormat>
+
+<code>
+Imports System
+Imports System.IO
+Imports System.Threading
+Imports WatiN.Core
+Imports WatiN.Core.DialogHandlers
+Imports WatiN.Core.Exceptions
+Imports WatiN.Core.Interfaces
+Imports WatiN.Core.Logging
+
+
+Module TestModule
+
+    Sub Main()
+        TESTMETHODLIST
+	
+	System.Environment.Exit(0)
+    End Sub
+    
+    TESTMETHODCODE
+
+End Module
+</code>
+
+<Method>
+Public Sub TESTNAME()
+TESTCODE
+End Sub 'test
+</Method>
+</settings>

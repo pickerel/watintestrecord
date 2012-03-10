@@ -1,0 +1,46 @@
+<settings>
+  <TemplateName>VB.Net VS2005</TemplateName>
+  <CodeLanguage>VBNet</CodeLanguage>
+  <CanRun>0</CanRun>
+  <CanCompile>1</CanCompile>
+  <FileExtension>*.vb</FileExtension>
+  <ReferencedAssemblies>%NETPATH%\System.dll
+%NETPATH%\System.Data.dll
+%NETPATH%\System.XML.dll
+%APPPATH%\WatiN.Core.dll
+C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+</ReferencedAssemblies>
+  <UsingFormat>Imports USINGNAMESPACE</UsingFormat>
+  <code>
+Imports System
+Imports System.IO
+Imports System.Threading
+Imports WatiN.Core
+Imports WatiN.Core.DialogHandlers
+Imports WatiN.Core.Exceptions
+Imports WatiN.Core.Interfaces
+Imports WatiN.Core.Logging
+Imports Microsoft.VisualStudio.TestTools.UnitTesting
+
+Namespace TestSpace
+   &lt;TestClass()&gt;  _
+   Public Class TestClass
+      TESTMETHODCODE
+   End Class 'TestClass 
+End Namespace 'TestSpace
+
+
+
+</code>
+  <Method>
+&lt;TestMethod()&gt;  _
+Public Sub TESTNAME()
+TESTCODE
+End Sub 'test 
+</Method>
+  <Name>VB.Net VS2005</Name>
+  <IncludedFiles>
+  </IncludedFiles>
+  <StartupApplication>
+  </StartupApplication>
+</settings>

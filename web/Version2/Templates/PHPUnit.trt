@@ -1,0 +1,40 @@
+<settings>
+  <TemplateName>PHPUnit</TemplateName>
+  <CodeLanguage>PHP</CodeLanguage>
+  <CanRun>1</CanRun>
+  <CanCompile>0</CanCompile>
+  <FileExtension>*.php</FileExtension>
+  <ReferencedAssemblies>
+  </ReferencedAssemblies>
+  <UsingFormat>
+  </UsingFormat>
+  <code>
+  &lt;?PHP
+  require_once 'PHPUnit/Framework.php';
+  class TestClass
+  {
+
+  	public function RunTests()
+  	{
+  		TESTMETHODLIST
+  	}
+  	  
+  TESTMETHODCODE
+  
+  }
+  
+  $tests = new TestClass;
+  $tests->RunTests();
+  ?&gt;
+</code>
+  <Method>
+public function TESTNAME()
+{
+	TESTCODE
+}
+</Method>
+  <Name>PHP</Name>
+  <IncludedFiles>
+  </IncludedFiles>
+  <StartupApplication>C:\PHP5\php.exe</StartupApplication>
+</settings>

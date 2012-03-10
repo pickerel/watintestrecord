@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RecorderData>
+	<ActionList>
+		<Action Class="TestRecorder.Core.Actions.ActionSleep">
+			<Miliseconds type="System.Int32">5000</Miliseconds>
+			<Guid type="System.String">d759676a-1f7a-4acf-844b-a436172dbef1</Guid>
+		</Action>
+	</ActionList>
+	<WindowList />
+</RecorderData>

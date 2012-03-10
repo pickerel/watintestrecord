@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RecorderData>
+	<ActionList>
+		<Action Class="TestRecorder.Core.Actions.ActionClick">
+			<Window>window</Window>
+			<Guid type="System.String">e833685e-96ce-4f60-894f-062a4603da89</Guid>
+			<FindAttributeCollection TagName="Text" ActionUrl="">
+				<FindAttribute FindName="id" Regex="0">name</FindAttribute>
+			</FindAttributeCollection>
+		</Action>
+		<Action Class="TestRecorder.Core.Actions.ActionAlertHandler">
+			<Window>window</Window>
+			<Guid type="System.String">fa635966-05af-4dd4-ab67-ccbfe8523c24</Guid>
+			<Connection>e833685e-96ce-4f60-894f-062a4603da89</Connection>
+		</Action>
+	</ActionList>
+	<WindowList>
+		<Window name="window">
+			<Title />
+			<Url />
+			<Window name="window">
+				<Title />
+				<Url />
+			</Window>
+		</Window>
+	</WindowList>
+</RecorderData>

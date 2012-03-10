@@ -1,0 +1,72 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:WinExternal.cs" caret="1110" fromTop="24" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmWindowExternal.cs" caret="1494" fromTop="15" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="89251" fromTop="29" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="120969" fromTop="2840" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="4783" fromTop="19" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="13" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="8" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="8" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="8" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="8" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="8" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="9" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="8" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="8" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="11" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="10" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="14" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="8" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="8" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="13" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="8" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="13" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="8" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="13" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="88174" fromTop="8" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="6432" fromTop="25" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="9245" fromTop="15" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="4543" fromTop="10" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="89490" fromTop="15" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="89585" fromTop="20" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="91081" fromTop="34" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="86120" fromTop="25" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="36010" fromTop="29" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.5\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="return" priority="31" />
+      <Item value="source" priority="31" />
+      <Item value="generateScript`0" priority="31" />
+      <Item value="_mCurWb" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:csExWB.DocumentCompleteExEventArgs">
+      <Item value="docsource" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:csExWB.cEXWB">
+      <Item value="execScript`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
