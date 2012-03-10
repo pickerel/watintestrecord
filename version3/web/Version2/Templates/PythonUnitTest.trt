@@ -1,0 +1,30 @@
+<settings>
+  <TemplateName>Python UnitTest</TemplateName>
+  <CodeLanguage>Python</CodeLanguage>
+  <CanRun>1</CanRun>
+  <CanCompile>0</CanCompile>
+  <FileExtension>*.py</FileExtension>
+  <ReferencedAssemblies>
+  </ReferencedAssemblies>
+  <UsingFormat>
+  </UsingFormat>
+  <code>
+# uses win32com from http://sourceforge.net/projects/pywin32/
+import win32com.client
+import unittest
+
+class TestBrowser(unittest.TestCase):
+
+TESTMETHODCODE
+
+if __name__ == '__main__':
+    unittest.main()
+</code>
+  <Method>
+	def TESTNAME(self):
+TESTCODE
+</Method>
+  <IncludedFiles>
+  </IncludedFiles>
+  <StartupApplication>C:\Python\Python.exe</StartupApplication>
+</settings>

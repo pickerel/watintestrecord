@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RecorderData>
+	<ActionList>
+		<Action Class="TestRecorder.Core.Actions.ActionNavigate">
+			<Window>window</Window>
+			<Url type="System.String">http://www.google.com</Url>
+			<Guid type="System.String">5f091895-09d2-4395-9f6f-ffdfe9a54867</Guid>
+		</Action>
+	</ActionList>
+	<WindowList>
+		<Window name="window">
+			<Title />
+			<Url />
+		</Window>
+	</WindowList>
+</RecorderData>

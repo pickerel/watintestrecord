@@ -1,0 +1,60 @@
+<Settings>
+  <TemplateName>VB.Net NUnit</TemplateName>
+  <DriverLibrary>WatiN</DriverLibrary>
+  <CodeLanguage>VBNet</CodeLanguage>
+  <CanRun>0</CanRun>
+  <FileExtension>*.vb</FileExtension>
+<code>
+Imports System
+Imports System.IO
+Imports System.Threading
+Imports WatiN.Core
+Imports WatiN.Core.DialogHandlers
+Imports WatiN.Core.Exceptions
+Imports WatiN.Core.Interfaces
+Imports WatiN.Core.Logging
+Imports NUnit.Framework
+
+Namespace TestSpace
+   &lt;TestFixture()&gt;  _
+   Public Class TestClass
+      
+      TESTMETHODCODE
+
+   End Class 'TestClass 
+End Namespace 'TestSpace
+</code>
+  <Method>
+  &lt;Test()&gt;  _
+Public Sub TESTNAME()
+TESTCODE
+End Sub 'test 
+</Method>
+<PropertyPage separatefile="1">
+using System;
+using System.Text.RegularExpressions;
+using WatiN.Core;
+
+internal class WINDOWNAME : Page
+{
+    private readonly IE _browser;
+    public WINDOWNAME(IE browser)
+    {
+        _browser = browser;
+    }
+
+    PROPERTYCODE
+}
+</PropertyPage>
+<Property>
+    public ELEMENTTYPE ELEMENTNAME
+    {
+        get
+        {
+            ELEMENTTYPE field = _browser.ELEMENTTYPE(ELEMENTFINDCOLLECTION);
+            field.Description = "ELEMENTDESCRIPTION";
+            return field;
+        }
+    }
+</Property>
+</Settings>

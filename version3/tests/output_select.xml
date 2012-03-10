@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RecorderData>
+	<ActionList>
+		<Action Class="TestRecorder.Core.Actions.ActionSelect">
+			<Window>window</Window>
+			<ByValue type="System.Boolean">False</ByValue>
+			<SelectedValue type="System.String">1</SelectedValue>
+			<SelectedText type="System.String">First text</SelectedText>
+			<Guid type="System.String">ac4e9295-fe3c-4737-9137-e26ef27cdfb7</Guid>
+			<FindAttributeCollection TagName="Select" ActionUrl="">
+				<FindAttribute FindName="id" Regex="0">Select1</FindAttribute>
+			</FindAttributeCollection>
+		</Action>
+	</ActionList>
+	<WindowList>
+		<Window name="window">
+			<Title />
+			<Url />
+		</Window>
+	</WindowList>
+</RecorderData>

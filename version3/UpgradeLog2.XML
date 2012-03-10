@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DemoApp">
+</Property><Property Name="Solution File" Value="C:\Work\csexwb2\DemoApp\DemoApp.sln">
+</Property><Property Name="Date" Value="Sunday, August 14, 2011">
+</Property><Property Name="Time" Value="14:46:25 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="DemoApp" Source="DemoApp.csproj" Description="Project file successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\DemoApp.csproj">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="DemoApp.csproj.user" Description="Project user file successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\DemoApp.csproj.user">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="AllForms.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\AllForms.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="CustomComboBox.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\CustomComboBox.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="CustomSplitter.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\CustomSplitter.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmAbout.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmAbout.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmAbout.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmAbout.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmAnchor.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmAnchor.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmAnchor.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmAnchor.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmAuthenticate.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmAuthenticate.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmAuthenticate.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmAuthenticate.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmAutomation.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmAutomation.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmAutomation.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmAutomation.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmCacheCookie.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmCacheCookie.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmCacheCookie.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmCacheCookie.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmDocInfo.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmDocInfo.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmDocInfo.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmDocInfo.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmDOM.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmDOM.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmDOM.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmDOM.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmDynamicConfirm.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmDynamicConfirm.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmDynamicConfirm.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmDynamicConfirm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmFileDownload.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmFileDownload.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmFileDownload.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmFileDownload.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmHTMLeditor.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmHTMLeditor.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmHTMLeditor.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmHTMLeditor.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmHTMLEditor2.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmHTMLEditor2.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmHTMLEditor2.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmHTMLEditor2.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmHTMLParser.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmHTMLParser.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmHTMLParser.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmHTMLParser.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmMain.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmMain.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmMain.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmMain.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmFind.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmFind.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmFind.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmFind.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmInput.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmInput.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmInput.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmInput.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmLog.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmLog.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmLog.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmLog.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmPopup.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmPopup.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmPopup.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmPopup.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmRequestResponseHeaders.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmRequestResponseHeaders.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmRequestResponseHeaders.designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmRequestResponseHeaders.designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmTable.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmTable.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmTable.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmTable.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmTableCellProp.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmTableCellProp.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmTableCellProp.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmTableCellProp.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmWindowExternal.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmWindowExternal.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmWindowExternal.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmWindowExternal.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="HtmlColorSelector.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\HtmlColorSelector.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="HtmlColorSelectorComboBox.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\HtmlColorSelectorComboBox.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="HtmlRichTextBox.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\HtmlRichTextBox.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="Program.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\Program.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="Settings.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\Settings.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="WinExternal.cs" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\WinExternal.cs">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="app.config" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\app.config">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="App.ICO" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\App.ICO">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmMain.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmMain.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmPopup.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmPopup.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmFind.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmFind.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmInput.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmInput.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmLog.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmLog.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="Resources\IeToolbar.bmp" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\Resources\IeToolbar.bmp">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmRequestResponseHeaders.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmRequestResponseHeaders.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="Resources\blanka.bmp" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\Resources\blanka.bmp">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmAnchor.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmAnchor.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmAutomation.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmAutomation.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmHTMLEditor2.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmHTMLEditor2.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmHTMLParser.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmHTMLParser.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmWindowExternal.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmWindowExternal.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmDynamicConfirm.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmDynamicConfirm.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmFileDownload.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmFileDownload.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmHTMLeditor.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmHTMLeditor.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmAbout.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmAbout.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmAuthenticate.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmAuthenticate.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmCacheCookie.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmCacheCookie.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmDocInfo.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmDocInfo.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmDOM.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmDOM.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmTable.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmTable.resx">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="frmTableCellProp.resx" Description="File successfully backed up as C:\Work\csexwb2\DemoApp\Backup1\frmTableCellProp.resx">
+</Event><Event ErrorLevel="1" Project="DemoApp" Source="DemoApp.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="DemoApp.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DemoApp" Source="DemoApp.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DemoApp" Source="DemoApp.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

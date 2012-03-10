@@ -1,0 +1,47 @@
+<settings>
+<TemplateName>C# NUnit</TemplateName>
+<CodeLanguage>CSharp</CodeLanguage>
+<CanRun>0</CanRun>
+<CanCompile>1</CanCompile>
+<FileExtension>*.cs</FileExtension>
+
+<ReferencedAssemblies>
+%NETPATH%\System.dll
+%NETPATH%\System.Data.dll
+%NETPATH%\System.XML.dll
+%APPPATH%\Interop.SHDocVw.dll
+%APPPATH%\WatiN.Core.dll
+%APPPATH%\NUnit.Framework.dll
+</ReferencedAssemblies>
+
+<UsingFormat>using USINGNAMESPACE;</UsingFormat>
+
+<code>
+using System;
+using System.IO;
+using System.Threading;
+using WatiN.Core;
+using WatiN.Core.DialogHandlers;
+using WatiN.Core.Exceptions;
+using WatiN.Core.Interfaces;
+using WatiN.Core.Logging;
+using NUnit.Framework;
+
+namespace TestSpace
+{
+	[TestFixture]
+	public class TestClass
+	{
+		TESTMETHODCODE
+	}
+}
+</code>
+
+<Method>
+[Test]
+public void TESTNAME ()
+{
+	TESTCODE
+}
+</Method>
+</settings>

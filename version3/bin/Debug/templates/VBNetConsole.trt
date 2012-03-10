@@ -1,0 +1,63 @@
+<Settings>
+<TemplateName>VB.Net Console</TemplateName>
+<DriverLibrary>WatiN</DriverLibrary>
+<CodeLanguage>VBNet</CodeLanguage>
+<CanRun>1</CanRun>
+<FileExtension>*.vb</FileExtension>
+<code>
+Imports System
+Imports System.IO
+Imports System.Threading
+Imports WatiN.Core
+Imports WatiN.Core.DialogHandlers
+Imports WatiN.Core.Exceptions
+Imports WatiN.Core.Interfaces
+Imports WatiN.Core.Logging
+
+
+Module TestModule
+
+    Sub Main()
+        TESTMETHODLIST
+	
+	System.Environment.Exit(0)
+    End Sub
+    
+    TESTMETHODCODE
+
+End Module
+</code>
+
+<Method>
+Public Sub TESTNAME()
+TESTCODE
+End Sub 'test
+</Method>
+<PropertyPage separatefile="1">
+using System;
+using System.Text.RegularExpressions;
+using WatiN.Core;
+
+internal class WINDOWNAME : Page
+{
+    private readonly IE _browser;
+    public WINDOWNAME(IE browser)
+    {
+        _browser = browser;
+    }
+
+    PROPERTYCODE
+}
+</PropertyPage>
+<Property>
+    public ELEMENTTYPE ELEMENTNAME
+    {
+        get
+        {
+            ELEMENTTYPE field = _browser.ELEMENTTYPE(ELEMENTFINDCOLLECTION);
+            field.Description = "ELEMENTDESCRIPTION";
+            return field;
+        }
+    }
+</Property>
+</Settings>

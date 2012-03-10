@@ -1,0 +1,50 @@
+<settings>
+  <TemplateName>C# Console</TemplateName>
+  <CodeLanguage>CSharp</CodeLanguage>
+  <CanRun>1</CanRun>
+  <CanCompile>1</CanCompile>
+  <FileExtension>*.cs</FileExtension>
+  <ReferencedAssemblies>%NETPATH%\System.dll
+%NETPATH%\System.Data.dll
+%NETPATH%\System.XML.dll
+%APPPATH%\Interop.SHDocVw.dll
+%APPPATH%\WatiN.Core.dll
+</ReferencedAssemblies>
+  <UsingFormat>using USINGNAMESPACE;</UsingFormat>
+  <code>
+using System;
+using System.IO;
+using System.Threading;
+using WatiN.Core;
+using WatiN.Core.DialogHandlers;
+using WatiN.Core.Exceptions;
+using WatiN.Core.Interfaces;
+using WatiN.Core.Logging;
+
+namespace TestSpace
+{
+	public class TestClass
+	{
+		[STAThread]
+		static void Main()
+		{
+			TESTMETHODLIST
+			System.Environment.Exit(0);
+		}
+	
+		TESTMETHODCODE
+	}
+}
+</code>
+  <Method>
+public static void TESTNAME ()
+{
+	TESTCODE
+}
+</Method>
+  <Name>C# Console</Name>
+  <IncludedFiles>
+  </IncludedFiles>
+  <StartupApplication>
+  </StartupApplication>
+</settings>

@@ -1,0 +1,1136 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="FF47BDC7-7BF0-4BB1-AA11-4F7365B31EEA/f:FindAttributeCollectionTest.cs" caret="2636" fromTop="21" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:Actions/f:FindAttributeCollection.cs" caret="8277" fromTop="7" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/f:BrowserTypes.cs" caret="138" fromTop="9" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:CodeGenerators/f:WatiNCSharp.cs" caret="705" fromTop="23" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:CodeGenerators/f:WatiNVBNet.cs" caret="604" fromTop="18" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:CodeGenerators/f:ScriptProperty.cs" caret="519" fromTop="16" />
+      <File id="FF47BDC7-7BF0-4BB1-AA11-4F7365B31EEA/f:CodeGeneratorTest.cs" caret="781" fromTop="16" />
+      <File id="FF47BDC7-7BF0-4BB1-AA11-4F7365B31EEA/f:CodeGenCSTest.cs" caret="7473" fromTop="12" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:WinExternal.cs" caret="0" fromTop="0" />
+      <File id="FF47BDC7-7BF0-4BB1-AA11-4F7365B31EEA/f:SerializeActionHelperTest.cs" caret="8819" fromTop="1" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:Actions/f:ActionAlertHandler.cs" caret="281" fromTop="6" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:Actions/f:ActionBackward.cs" caret="269" fromTop="6" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:Actions/f:ActionClick.cs" caret="303" fromTop="8" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:Actions/f:ActionCloseWindow.cs" caret="279" fromTop="6" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:Actions/f:ActionForward.cs" caret="266" fromTop="6" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:Actions/f:ActionTypeText.cs" caret="400" fromTop="10" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:Actions/f:ActionSleep.cs" caret="306" fromTop="7" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:Actions/f:ActionSelect.cs" caret="461" fromTop="12" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:Actions/f:ActionRefresh.cs" caret="266" fromTop="6" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:Actions/f:ActionNavigate.cs" caret="269" fromTop="6" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:Actions/f:ActionElementBase.cs" caret="0" fromTop="0" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/f:ScriptFactoryManager.cs" caret="7137" fromTop="5" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:SaveScriptDialogControl.Designer.cs" caret="0" fromTop="0" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:CodeGenerators/f:CodeGenerator.cs" caret="4205" fromTop="0" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:SaveScriptDialogControl.cs" caret="0" fromTop="0" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:CodeGenerators/f:WatiNBase.cs" caret="813" fromTop="16" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:CodeGenerators/f:CodeTemplate.cs" caret="2107" fromTop="26" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.Designer.cs" caret="0" fromTop="0" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/d:Core/d:Actions/f:ActionBase.cs" caret="360" fromTop="12" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="120880" fromTop="24" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="104055" fromTop="19" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="104495" fromTop="28" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="105258" fromTop="19" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="105357" fromTop="24" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="107358" fromTop="19" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="108249" fromTop="35" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="108877" fromTop="19" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="110578" fromTop="19" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="111457" fromTop="19" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="114052" fromTop="19" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="114315" fromTop="26" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="115099" fromTop="6" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="115675" fromTop="21" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="116138" fromTop="34" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="116536" fromTop="19" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="117519" fromTop="21" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="122666" fromTop="14" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="5803" fromTop="17" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="118986" fromTop="14" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="118749" fromTop="7" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="122443" fromTop="23" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="122303" fromTop="26" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="122650" fromTop="26" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="122135" fromTop="18" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="122135" fromTop="26" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="120851" fromTop="2" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="122055" fromTop="20" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="122138" fromTop="24" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="122092" fromTop="33" />
+      <File id="ED4D7A89-B456-4D4A-9E24-570D9D8ECA46/f:frmMain.cs" caret="120735" fromTop="19" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="cEXWB1" priority="351" />
+      <Item value="true" priority="415" />
+      <Item value="pWb" priority="159" />
+      <Item value="private" priority="1824" />
+      <Item value="string" priority="4799" />
+      <Item value="lastSourceHash" priority="63" />
+      <Item value="if" priority="2911" />
+      <Item value="newSource" priority="95" />
+      <Item value="generateScript`0" priority="31" />
+      <Item value="var" priority="511" />
+      <Item value="csExWB" priority="224" />
+      <Item value="cEXWB`0" priority="108" />
+      <Item value="sender" priority="159" />
+      <Item value="pwb" priority="191" />
+      <Item value="System" priority="543" />
+      <Item value="Diagnostics" priority="134" />
+      <Item value="Debug`0" priority="134" />
+      <Item value="RefreshConstants`0" priority="31" />
+      <Item value="bool" priority="287" />
+      <Item value="false" priority="223" />
+      <Item value="pageShimAdded" priority="63" />
+      <Item value="void" priority="1439" />
+      <Item value="IHTMLElementCollection`0" priority="129" />
+      <Item value="inputCollection" priority="95" />
+      <Item value="foreach" priority="863" />
+      <Item value="IHTMLElement`0" priority="764" />
+      <Item value="AssignPopup`0" priority="31" />
+      <Item value="input" priority="351" />
+      <Item value="object" priority="315" />
+      <Item value="HTMLElementEventArgs`0" priority="26" />
+      <Item value="SystemColorsChanged" priority="31" />
+      <Item value="ClickedItem`0" priority="96" />
+      <Item value="new" priority="2911" />
+      <Item value="delegate" priority="63" />
+      <Item value="ClickedItemEvent`0" priority="31" />
+      <Item value="HookUpItems`0" priority="63" />
+      <Item value="m_external" priority="64" />
+      <Item value="builder" priority="831" />
+      <Item value="Microsoft" priority="63" />
+      <Item value="mshtml" priority="157" />
+      <Item value="element" priority="928" />
+      <Item value="ButtonClickHandler`0" priority="32" />
+      <Item value="MessageBox`0" priority="63" />
+      <Item value="IHTMLElement2`0" priority="32" />
+      <Item value="else" priority="735" />
+      <Item value="TextChangeHandler`0" priority="32" />
+      <Item value="List" priority="828" />
+      <Item value="IHTMLInputElement`0" priority="356" />
+      <Item value="List&lt;IHTMLInputElement&gt;" priority="28" />
+      <Item value="inputList" priority="95" />
+      <Item value="ButtonFocusHandler`0" priority="32" />
+      <Item value="ScriptFactoryManager" priority="86" />
+      <Item value="public" priority="3260" />
+      <Item value="Actions" priority="54" />
+      <Item value="ActionBase`0" priority="1150" />
+      <Item value="scriptManager" priority="63" />
+      <Item value="IWebBrowser2`0" priority="63" />
+      <Item value="BrowserWindow`0" priority="703" />
+      <Item value="aBrowser2" priority="64" />
+      <Item value="browser" priority="321" />
+      <Item value="IHTMLTextAreaElement`0" priority="31" />
+      <Item value="IHTMLDOMNode`0" priority="31" />
+      <Item value="CurrentBrowserControl" priority="63" />
+      <Item value="HtmlElement`0" priority="192" />
+      <Item value="IHTMLSelectElement`0" priority="256" />
+      <Item value="activeElement" priority="191" />
+      <Item value="List&lt;ActionBase&gt;" priority="144" />
+      <Item value="ScriptFactoryManager`0" priority="63" />
+      <Item value="List&lt;string&gt;" priority="260" />
+      <Item value="pattern" priority="95" />
+      <Item value="using" priority="61" />
+      <Item value="NUnit.Framework" priority="30" />
+      <Item value="TestFixture" priority="31" />
+      <Item value="Test" priority="95" />
+      <Item value="return" priority="2143" />
+      <Item value="_findPattern" priority="127" />
+      <Item value="Settings`0" priority="31" />
+      <Item value="SetUp" priority="63" />
+      <Item value="ScriptFactoryManagerTest`0" priority="31" />
+      <Item value="cEXWB" priority="86" />
+      <Item value="doc" priority="287" />
+      <Item value="HTMLDocumentClass`0" priority="58" />
+      <Item value="HTMLDocumentClass" priority="28" />
+      <Item value="HTMLDocument" priority="25" />
+      <Item value="null" priority="2015" />
+      <Item value="IfacesEnumsStructsClasses" priority="93" />
+      <Item value="IHTMLDocument" priority="26" />
+      <Item value="wb" priority="287" />
+      <Item value="WebBrowser" priority="28" />
+      <Item value="IHTMLDocument3`0" priority="63" />
+      <Item value="collection" priority="451" />
+      <Item value="HtmlDocument`0" priority="96" />
+      <Item value="HtmlElementCollection`0" priority="63" />
+      <Item value="FileAssert`0" priority="127" />
+      <Item value="IO" priority="242" />
+      <Item value="File`0" priority="166" />
+      <Item value="HtmlDocument" priority="28" />
+      <Item value="IPersistStreamInit`0" priority="31" />
+      <Item value="FileStream" priority="28" />
+      <Item value="FileMode`0" priority="31" />
+      <Item value="FileAccess`0" priority="31" />
+      <Item value="fsHtml" priority="31" />
+      <Item value="MemoryStream`0" priority="31" />
+      <Item value="MemoryStream" priority="28" />
+      <Item value="GetFinder`0" priority="31" />
+      <Item value="ActionBase" priority="28" />
+      <Item value="_mgr" priority="255" />
+      <Item value="Assert`0" priority="2175" />
+      <Item value="int" priority="478" />
+      <Item value="_actionList" priority="735" />
+      <Item value="action" priority="2337" />
+      <Item value="GetInputElements`0" priority="63" />
+      <Item value="protected" priority="96" />
+      <Item value="GroupId" priority="31" />
+      <Item value="groupId" priority="31" />
+      <Item value="FindAttribute`0" priority="477" />
+      <Item value="attributeList" priority="319" />
+      <Item value="attribute" priority="643" />
+      <Item value="ActiveElementAttribute`0" priority="31" />
+      <Item value="findmethod" priority="95" />
+      <Item value="FindAttribute" priority="260" />
+      <Item value="strValue" priority="95" />
+      <Item value="attributes" priority="95" />
+      <Item value="elementAttributes" priority="31" />
+      <Item value="NameValueCollection" priority="87" />
+      <Item value="nvcAttributes" priority="95" />
+      <Item value="patternAttribute" priority="223" />
+      <Item value="localPattern" priority="95" />
+      <Item value="continue" priority="223" />
+      <Item value="IHTMLDocument`0" priority="65" />
+      <Item value="DataTable" priority="28" />
+      <Item value="table" priority="575" />
+      <Item value="attr" priority="95" />
+      <Item value="typeof" priority="605" />
+      <Item value="possibleList" priority="31" />
+      <Item value="DataRow`0" priority="95" />
+      <Item value="possibleElement" priority="31" />
+      <Item value="row" priority="63" />
+      <Item value="value" priority="223" />
+      <Item value="for" priority="63" />
+      <Item value="excludeIdx" priority="63" />
+      <Item value="StringBuilder`0" priority="63" />
+      <Item value="StringBuilder" priority="145" />
+      <Item value="sbQuery" priority="95" />
+      <Item value="queryidx" priority="31" />
+      <Item value="columnName" priority="95" />
+      <Item value="Length" priority="53" />
+      <Item value="break" priority="415" />
+      <Item value="lastAttribute" priority="31" />
+      <Item value="List`0" priority="63" />
+      <Item value="findList" priority="63" />
+      <Item value="DataColumn`0" priority="62" />
+      <Item value="column" priority="159" />
+      <Item value="arrRows" priority="63" />
+      <Item value="objValue" priority="159" />
+      <Item value="query" priority="31" />
+      <Item value="deleteColumns" priority="63" />
+      <Item value="deleteColumn" priority="95" />
+      <Item value="attrToDelete" priority="31" />
+      <Item value="includeIdx" priority="63" />
+      <Item value="List&lt;FindAttribute&gt;" priority="28" />
+      <Item value="isolatedList" priority="63" />
+      <Item value="InvalidCastException`0" priority="31" />
+      <Item value="switch" priority="191" />
+      <Item value="internal" priority="511" />
+      <Item value="ActionElement" priority="127" />
+      <Item value="ActionClick`0" priority="320" />
+      <Item value="base" priority="159" />
+      <Item value="ActionWindow" priority="90" />
+      <Item value="windowName" priority="223" />
+      <Item value="MSHTML_COMMAND_IDS`0" priority="31" />
+      <Item value="actionElement" priority="95" />
+      <Item value="_selectedValue" priority="31" />
+      <Item value="HtmlEventProxy`0" priority="32" />
+      <Item value="GetSelectedValue`0" priority="31" />
+      <Item value="Dictionary" priority="312" />
+      <Item value="Dictionary&lt;string,int&gt;" priority="29" />
+      <Item value="_selectLister" priority="63" />
+      <Item value="hash" priority="31" />
+      <Item value="ActionElementBase`0" priority="744" />
+      <Item value="TextToType" priority="95" />
+      <Item value="ActionSelect`0" priority="290" />
+      <Item value="ActionText`0" priority="32" />
+      <Item value="hiddenElement" priority="63" />
+      <Item value="findCollection" priority="290" />
+      <Item value="_localPattern" priority="63" />
+      <Item value="findPattern" priority="63" />
+      <Item value="radioElement" priority="64" />
+      <Item value="a" priority="223" />
+      <Item value="counter" priority="96" />
+      <Item value="containingDocument" priority="31" />
+      <Item value="availableAttributes" priority="63" />
+      <Item value="NameValueCollection`0" priority="63" />
+      <Item value="availableAttribute" priority="31" />
+      <Item value="attributeKey" priority="31" />
+      <Item value="ByValue" priority="31" />
+      <Item value="SelectedValue" priority="63" />
+      <Item value="NoWait" priority="31" />
+      <Item value="info" priority="447" />
+      <Item value="context" priority="95" />
+      <Item value="override" priority="415" />
+      <Item value="ActionFinder" priority="191" />
+      <Item value="node" priority="542" />
+      <Item value="static" priority="287" />
+      <Item value="Reflection" priority="26" />
+      <Item value="Action`0" priority="95" />
+      <Item value="writer" priority="767" />
+      <Item value="findAttribute" priority="223" />
+      <Item value="FindAttributeCollection`0" priority="255" />
+      <Item value="XmlNode`0" priority="699" />
+      <Item value="asm" priority="63" />
+      <Item value="className" priority="63" />
+      <Item value="type" priority="31" />
+      <Item value="Type`0" priority="95" />
+      <Item value="classType" priority="31" />
+      <Item value="FindAttributeCollection" priority="144" />
+      <Item value="Web" priority="53" />
+      <Item value="HtmlString`0" priority="26" />
+      <Item value="HttpUtility`0" priority="26" />
+      <Item value="BindingFlags`0" priority="127" />
+      <Item value="_attributes" priority="95" />
+      <Item value="finder" priority="287" />
+      <Item value="DeserializeFindAttributes`0" priority="31" />
+      <Item value="childNode" priority="63" />
+      <Item value="name" priority="31" />
+      <Item value="regex" priority="31" />
+      <Item value="XmlNodeList`0" priority="124" />
+      <Item value="ActionClick" priority="58" />
+      <Item value="class" priority="93" />
+      <Item value="GetInputElement`0" priority="31" />
+      <Item value="SerializeActionHelper`0" priority="95" />
+      <Item value="XmlWriter" priority="28" />
+      <Item value="filename" priority="575" />
+      <Item value="XmlDocument`0" priority="63" />
+      <Item value="XmlDocument" priority="86" />
+      <Item value="rootNode" priority="159" />
+      <Item value="DeserializeAction`0" priority="31" />
+      <Item value="actionNode" priority="353" />
+      <Item value="actionList" priority="543" />
+      <Item value="root" priority="63" />
+      <Item value="actionNodes" priority="159" />
+      <Item value="testelement" priority="63" />
+      <Item value="tagname" priority="320" />
+      <Item value="typeobject" priority="63" />
+      <Item value="settings" priority="31" />
+      <Item value="findAttributeList" priority="31" />
+      <Item value="firstAction" priority="256" />
+      <Item value="windowNode" priority="159" />
+      <Item value="findCollectionNode" priority="159" />
+      <Item value="TagName" priority="192" />
+      <Item value="_tagName" priority="63" />
+      <Item value="tagName" priority="287" />
+      <Item value="GetTagName`0" priority="31" />
+      <Item value="SetTagName`0" priority="31" />
+      <Item value="XmlAttribute`0" priority="31" />
+      <Item value="GetDocument`0" priority="31" />
+      <Item value="WriteTextActionToFile`0" priority="95" />
+      <Item value="ActionSelect" priority="59" />
+      <Item value="let`0" priority="31" />
+      <Item value="TypeValidationEventArgs`0" priority="31" />
+      <Item value="intendedType" priority="159" />
+      <Item value="CheckSingleElement`0" priority="31" />
+      <Item value="CheckSingleElementDeserial`0" priority="31" />
+      <Item value="Convert`0" priority="31" />
+      <Item value="singleNode" priority="31" />
+      <Item value="attributeType" priority="31" />
+      <Item value="conversionType" priority="127" />
+      <Item value="ActionTypeText" priority="59" />
+      <Item value="ActionTypeText`0" priority="226" />
+      <Item value="SelectedText" priority="31" />
+      <Item value="objvalue" priority="63" />
+      <Item value="WriteActionToFile`0" priority="31" />
+      <Item value="ActionNavigate" priority="89" />
+      <Item value="WriteNavigateActionToFile`0" priority="63" />
+      <Item value="CheckSingleBaseSerial`0" priority="31" />
+      <Item value="outputFile" priority="31" />
+      <Item value="ActionNavigate`0" priority="128" />
+      <Item value="CheckSingleBaseDeserial`0" priority="31" />
+      <Item value="this" priority="63" />
+      <Item value="IconFilename" priority="31" />
+      <Item value="Description" priority="191" />
+      <Item value="GetDescription`0" priority="63" />
+      <Item value="description" priority="31" />
+      <Item value="case" priority="191" />
+      <Item value="ActionAlertHandler`0" priority="127" />
+      <Item value="Base64FormattingOptions`0" priority="31" />
+      <Item value="url" priority="127" />
+      <Item value="ActionBackward" priority="29" />
+      <Item value="ActionAlertHandler" priority="89" />
+      <Item value="ActionForward" priority="59" />
+      <Item value="ActionSleep" priority="89" />
+      <Item value="seconds" priority="63" />
+      <Item value="ActionCloseWindow" priority="59" />
+      <Item value="b" priority="63" />
+      <Item value="internalName" priority="127" />
+      <Item value="InternalName" priority="31" />
+      <Item value="InitialUrl" priority="31" />
+      <Item value="WindowTitle" priority="31" />
+      <Item value="title" priority="31" />
+      <Item value="BrowserWindow" priority="202" />
+      <Item value="readonly" priority="31" />
+      <Item value="BrowserWindowCollection`0" priority="63" />
+      <Item value="BrowserWindowCollection" priority="57" />
+      <Item value="_browsers" priority="127" />
+      <Item value="window" priority="287" />
+      <Item value="in" priority="31" />
+      <Item value="windows" priority="191" />
+      <Item value="SerializeWindowInfo`0" priority="63" />
+      <Item value="XmlAttributeCollection`0" priority="31" />
+      <Item value="urlNode" priority="127" />
+      <Item value="titleNode" priority="31" />
+      <Item value="actions" priority="31" />
+      <Item value="windowList" priority="127" />
+      <Item value="windowNodes" priority="31" />
+      <Item value="DeserializeWindowInfo`0" priority="31" />
+      <Item value="Dictionary&lt;string,BrowserWindow&gt;" priority="28" />
+      <Item value="out" priority="127" />
+      <Item value="internalWindowName" priority="63" />
+      <Item value="windowTitle" priority="31" />
+      <Item value="ConnectedAction" priority="31" />
+      <Item value="TestRecorder" priority="61" />
+      <Item value="Miliseconds" priority="31" />
+      <Item value="WriteSleepActionToFile`0" priority="31" />
+      <Item value="ActionSleep`0" priority="161" />
+      <Item value="hasWindow" priority="63" />
+      <Item value="browsers" priority="31" />
+      <Item value="_guid" priority="95" />
+      <Item value="String`0" priority="63" />
+      <Item value="connectionGuid" priority="63" />
+      <Item value="_connectedActions" priority="31" />
+      <Item value="connectedActions" priority="31" />
+      <Item value="connectedAction" priority="63" />
+      <Item value="clickAction" priority="63" />
+      <Item value="alertAction" priority="63" />
+      <Item value="firstClick" priority="31" />
+      <Item value="firstAlert" priority="31" />
+      <Item value="WriteAlertHandlerToFile`0" priority="63" />
+      <Item value="LoadFile`0" priority="31" />
+      <Item value="actionNodeList" priority="63" />
+      <Item value="arrPropertyInfo" priority="31" />
+      <Item value="AddClick`0" priority="31" />
+      <Item value="ActionBackward`0" priority="31" />
+      <Item value="ActionForward`0" priority="31" />
+      <Item value="ActionRefresh`0" priority="31" />
+      <Item value="ActionRefresh" priority="59" />
+      <Item value="actionAlertHandler" priority="32" />
+      <Item value="actionClick" priority="63" />
+      <Item value="CodeGenerator`0" priority="351" />
+      <Item value="CodeTemplate`0" priority="638" />
+      <Item value="document" priority="96" />
+      <Item value="TemplateName" priority="63" />
+      <Item value="PropertyTemplate" priority="95" />
+      <Item value="template" priority="609" />
+      <Item value="CodeTemplate" priority="119" />
+      <Item value="templateFilename" priority="31" />
+      <Item value="PropertiesInSeparateFile" priority="31" />
+      <Item value="virtual" priority="127" />
+      <Item value="TemplateList" priority="32" />
+      <Item value="templateList" priority="255" />
+      <Item value="language" priority="31" />
+      <Item value="codeLanguage" priority="31" />
+      <Item value="CodeGenerator" priority="28" />
+      <Item value="_template" priority="31" />
+      <Item value="generator" priority="674" />
+      <Item value="WatiNBase`0" priority="63" />
+      <Item value="variableDeclarator" priority="31" />
+      <Item value="WatiNCSharp`0" priority="95" />
+      <Item value="abstract" priority="349" />
+      <Item value="strtype" priority="62" />
+      <Item value="Code" priority="255" />
+      <Item value="CommandToString`0" priority="31" />
+      <Item value="browserName" priority="95" />
+      <Item value="command" priority="63" />
+      <Item value="ActionToCode`0" priority="31" />
+      <Item value="Template" priority="191" />
+      <Item value="CodeGeneratorTest`0" priority="31" />
+      <Item value="Directory`0" priority="26" />
+      <Item value="DirectoryInfo`0" priority="27" />
+      <Item value="Path`0" priority="107" />
+      <Item value="path" priority="95" />
+      <Item value="Core" priority="26" />
+      <Item value="CodeGenerators" priority="26" />
+      <Item value="t" priority="95" />
+      <Item value="nunitTemplate" priority="31" />
+      <Item value="NUnit" priority="31" />
+      <Item value="Framework" priority="26" />
+      <Item value="const" priority="95" />
+      <Item value="initialpath" priority="63" />
+      <Item value="findpath" priority="31" />
+      <Item value="templatepath" priority="63" />
+      <Item value="WatiNCSharp" priority="57" />
+      <Item value="GetNUnitTemplate`0" priority="31" />
+      <Item value="ActionBack" priority="28" />
+      <Item value="back" priority="31" />
+      <Item value="default" priority="63" />
+      <Item value="StringAssert`0" priority="31" />
+      <Item value="params" priority="31" />
+      <Item value="parameter" priority="31" />
+      <Item value="LineEnding" priority="95" />
+      <Item value="nav" priority="31" />
+      <Item value="sleep" priority="63" />
+      <Item value="clicker" priority="319" />
+      <Item value="UppercaseFirstLetter`0" priority="63" />
+      <Item value="strLength" priority="32" />
+      <Item value="friendlyName" priority="289" />
+      <Item value="GetUniqueFriendlyName`0" priority="31" />
+      <Item value="_usedFriendlyNames" priority="127" />
+      <Item value="while" priority="95" />
+      <Item value="verifiedName" priority="95" />
+      <Item value="Dictionary&lt;string,string&gt;" priority="29" />
+      <Item value="property" priority="191" />
+      <Item value="Regex`0" priority="31" />
+      <Item value="Properties" priority="191" />
+      <Item value="GetPropertyAttributeString`0" priority="64" />
+      <Item value="Collections" priority="26" />
+      <Item value="Specialized" priority="26" />
+      <Item value="NameObjectCollectionBase`0" priority="26" />
+      <Item value="HttpApplicationStateWrapper" priority="28" />
+      <Item value="_recording" priority="31" />
+      <Item value="frmMain" priority="29" />
+      <Item value="nextmenu" priority="31" />
+      <Item value="select" priority="95" />
+      <Item value="typing" priority="63" />
+      <Item value="WebBrowser`0" priority="31" />
+      <Item value="IHTMLElement" priority="32" />
+      <Item value="SetElementToString`0" priority="31" />
+      <Item value="textaction" priority="63" />
+      <Item value="alerter" priority="63" />
+      <Item value="ScriptProperty`0" priority="159" />
+      <Item value="scriptProperty" priority="95" />
+      <Item value="codePage" priority="31" />
+      <Item value="lastWindow" priority="95" />
+      <Item value="propertyFilename" priority="31" />
+      <Item value="ScriptProperty" priority="28" />
+      <Item value="WindowName" priority="63" />
+      <Item value="PropertyCode" priority="63" />
+      <Item value="propertyCode" priority="63" />
+      <Item value="RichTextBoxWordPunctuations`0" priority="31" />
+      <Item value="RequiresClosure" priority="31" />
+      <Item value="RequiresClosureAfterLine" priority="31" />
+      <Item value="StatementClosure" priority="31" />
+      <Item value="AlertDialog`0" priority="31" />
+      <Item value="GetFriendlyName`0" priority="63" />
+      <Item value="_friendlyName" priority="127" />
+      <Item value="EnvironmentVariableTarget`0" priority="31" />
+      <Item value="n" priority="31" />
+      <Item value="&lt;remarks&gt;&lt;/remarks&gt;" priority="25" />
+      <Item value="Finder" priority="31" />
+      <Item value="ActionUrl" priority="64" />
+      <Item value="&lt;para&gt;&lt;/para&gt;" priority="25" />
+      <Item value="p" priority="95" />
+      <Item value="elementConstraintString" priority="31" />
+      <Item value="actionUrl" priority="64" />
+      <Item value="findName" priority="158" />
+      <Item value="elementName" priority="95" />
+      <Item value="elementType" priority="31" />
+      <Item value="propertyType" priority="64" />
+      <Item value="GetPropertyType`0" priority="31" />
+      <Item value="BrowserTypes`0" priority="159" />
+      <Item value="CreateBrowser`0" priority="31" />
+      <Item value="browserType" priority="31" />
+      <Item value="ClassToString`0" priority="63" />
+      <Item value="Chrome" priority="16" />
+      <Item value="code" priority="31" />
+      <Item value="FileExtension" priority="31" />
+      <Item value="CodePageTemplate" priority="31" />
+      <Item value="toolStripContainer1" priority="63" />
+      <Item value="Fill" priority="16" />
+      <Item value="pnlActions" priority="95" />
+      <Item value="Recording" priority="95" />
+      <Item value="tsRecordStart" priority="127" />
+      <Item value="Color`0" priority="127" />
+      <Item value="ColorTranslator`0" priority="31" />
+      <Item value="SystemColors`0" priority="31" />
+      <Item value="dlgLoadScript" priority="63" />
+      <Item value="DialogResult" priority="31" />
+      <Item value="_scriptManager" priority="223" />
+      <Item value="lvActions" priority="255" />
+      <Item value="RemoveAction`0" priority="95" />
+      <Item value="index" priority="191" />
+      <Item value="AddAction`0" priority="95" />
+      <Item value="currentIndex" priority="31" />
+      <Item value="RemovedActionEvent`0" priority="31" />
+      <Item value="OnActionRemoved" priority="31" />
+      <Item value="OnActionAdded" priority="31" />
+      <Item value="AddedActionEvent" priority="28" />
+      <Item value="ActionRemoved`0" priority="32" />
+      <Item value="actionType" priority="31" />
+      <Item value="imageIdx" priority="63" />
+      <Item value="ListViewItem`0" priority="31" />
+      <Item value="item" priority="31" />
+      <Item value="_openedWindows" priority="95" />
+      <Item value="BrowserType" priority="63" />
+      <Item value="FileDialogExtenders" priority="31" />
+      <Item value="FileDialogControlBase`0" priority="26" />
+      <Item value="ddlTemplate" priority="95" />
+      <Item value="fileExtension" priority="63" />
+      <Item value="FileDlgFilter" priority="31" />
+      <Item value="SaveScriptDialogControl`0" priority="63" />
+      <Item value="SaveScriptDialogControl" priority="28" />
+      <Item value="saveDlg" priority="191" />
+      <Item value="OK" priority="16" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:csExWB.cEXWB">
+      <Item value="SendSourceOnDocumentCompleteWBEx" priority="26" />
+      <Item value="Refresh`0" priority="26" />
+      <Item value="DocumentSource" priority="107" />
+      <Item value="Refresh2`0" priority="26" />
+      <Item value="execScript`0" priority="26" />
+      <Item value="GetElementsByTagName`0" priority="26" />
+      <Item value="WBOnDocumentChanged" priority="53" />
+      <Item value="WBSecondaryOnLoad" priority="26" />
+      <Item value="Navigate2`0" priority="80" />
+      <Item value="GetActiveDocument`0" priority="26" />
+      <Item value="GetActiveDocument3`0" priority="26" />
+      <Item value="Name" priority="26" />
+      <Item value="LocationUrl" priority="26" />
+      <Item value="Parent" priority="26" />
+      <Item value="Dock" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:csExWB.DocumentCompleteExEventArgs">
+      <Item value="browser" priority="26" />
+      <Item value="docsource" priority="26" />
+      <Item value="istoplevel" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="GetHashCode`0" priority="53" />
+      <Item value="Contains`0" priority="162" />
+      <Item value="ToLower`0" priority="161" />
+      <Item value="StartsWith`0" priority="27" />
+      <Item value="Substring`0" priority="26" />
+      <Item value="Length" priority="53" />
+      <Item value="CompareTo`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="WriteLine`0" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@IfacesEnumsStructsClasses.RefreshConstants">
+      <Item value="REFRESH_CONTINUE" priority="26" />
+      <Item value="REFRESH_NORMAL" priority="26" />
+      <Item value="REFRESH_COMPLETELY" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IfacesEnumsStructsClasses.IHTMLElement">
+      <Item value="onclick" priority="26" />
+      <Item value="tagName" priority="134" />
+      <Item value="className" priority="26" />
+      <Item value="document" priority="107" />
+      <Item value="getAttribute`0" priority="80" />
+      <Item value="GetType`0" priority="26" />
+      <Item value="outerHTML" priority="53" />
+      <Item value="innerText" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IfacesEnumsStructsClasses.IHTMLElement2">
+      <Item value="attachEvent`0" priority="53" />
+      <Item value="onfocus" priority="26" />
+      <Item value="GetHashCode`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DemoApp.WinExternal">
+      <Item value="ClickedItem`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="AppendLine`0" priority="53" />
+      <Item value="ToString`0" priority="216" />
+      <Item value="Append`0" priority="242" />
+      <Item value="Remove`0" priority="107" />
+      <Item value="Length" priority="107" />
+      <Item value="Clear`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IfacesEnumsStructsClasses.IHTMLInputElement">
+      <Item value="type" priority="81" />
+      <Item value="value" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Contains`0" priority="161" />
+      <Item value="Add`0" priority="593" />
+      <Item value="Count" priority="566" />
+      <Item value="Reverse`0" priority="26" />
+      <Item value="ForEach`0" priority="107" />
+      <Item value="RemoveAt`0" priority="53" />
+      <Item value="Find`0" priority="216" />
+      <Item value="Remove`0" priority="107" />
+      <Item value="Clear`0" priority="53" />
+      <Item value="Insert`0" priority="80" />
+      <Item value="Sort`0" priority="26" />
+      <Item value="Exists`0" priority="82" />
+      <Item value="IndexOf`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DemoApp.Core.ScriptFactoryManager">
+      <Item value="AddClick`0" priority="53" />
+      <Item value="ActionCount" priority="26" />
+      <Item value="GetFinder`0" priority="26" />
+      <Item value="AddText`0" priority="26" />
+      <Item value="AddBrowserWindow`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:csExWB.NavigateComplete2EventArgs">
+      <Item value="url" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DemoApp.Core.Settings">
+      <Item value="GetFindPattern`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IfacesEnumsStructsClasses.IHTMLDocument3">
+      <Item value="getElementById`0" priority="26" />
+      <Item value="getElementsByTagName`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:mshtml.HTMLDocumentClass">
+      <Item value="createDocumentFromUrl`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.WebBrowser">
+      <Item value="Navigate`0" priority="26" />
+      <Item value="Document" priority="80" />
+      <Item value="WebBrowserShortcutsEnabled" priority="26" />
+      <Item value="DocumentText" priority="26" />
+      <Item value="DocumentStream" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.HtmlDocument">
+      <Item value="DomDocument" priority="26" />
+      <Item value="GetElementsByTagName`0" priority="53" />
+      <Item value="All" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IfacesEnumsStructsClasses.IHTMLElementCollection">
+      <Item value="item`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.HtmlElementCollection">
+      <Item value="Indexer" priority="26" />
+      <Item value="GetElementsByName`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.HtmlElement">
+      <Item value="DomElement" priority="107" />
+      <Item value="GetAttribute`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="ReadAllText`0" priority="26" />
+      <Item value="Exists`0" priority="80" />
+      <Item value="WriteAllText`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileMode">
+      <Item value="Open" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileAccess">
+      <Item value="Read" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="AreEqual`0" priority="1110" />
+      <Item value="IsNotNull`0" priority="404" />
+      <Item value="GreaterOrEqual`0" priority="53" />
+      <Item value="IsTrue`0" priority="134" />
+      <Item value="That`0" priority="216" />
+      <Item value="IsNotNullOrEmpty`0" priority="53" />
+      <Item value="IsEmpty`0" priority="26" />
+      <Item value="True`0" priority="53" />
+      <Item value="Fail`0" priority="53" />
+      <Item value="Contains`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="269" />
+      <Item value="Format`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Specialized.NameValueCollection">
+      <Item value="Add`0" priority="26" />
+      <Item value="Indexer" priority="80" />
+      <Item value="Keys" priority="53" />
+      <Item value="Get`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IfacesEnumsStructsClasses.IHTMLDOMAttribute">
+      <Item value="nodeName" priority="188" />
+      <Item value="nodeValue" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="296" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Columns" priority="269" />
+      <Item value="Rows" priority="107" />
+      <Item value="NewRow`0" priority="26" />
+      <Item value="Select`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataColumnCollection">
+      <Item value="Add`0" priority="53" />
+      <Item value="Count" priority="53" />
+      <Item value="Remove`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DemoApp.Core.Actions.FindAttribute">
+      <Item value="FindName" priority="242" />
+      <Item value="FindValue" priority="134" />
+      <Item value="Regex" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IfacesEnumsStructsClasses.IHTMLDocument2">
+      <Item value="all" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Add`0" priority="53" />
+      <Item value="Count" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataColumn">
+      <Item value="ColumnName" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRow">
+      <Item value="AcceptChanges`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IfacesEnumsStructsClasses.IHTMLSelectElement">
+      <Item value="value" priority="26" />
+      <Item value="selectedIndex" priority="80" />
+      <Item value="GetHashCode`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="ToString`0" priority="350" />
+      <Item value="IsAssignableFrom`0" priority="26" />
+      <Item value="IsSubclassOf`0" priority="134" />
+      <Item value="GetConstructor`0" priority="26" />
+      <Item value="Name" priority="26" />
+      <Item value="FullName" priority="26" />
+      <Item value="IsPrimitive" priority="26" />
+      <Item value="IsSerializable" priority="26" />
+      <Item value="IsInstanceOfType`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="188" />
+      <Item value="ContainsKey`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DemoApp.Core.Actions.ActionSelect">
+      <Item value="SelectedText" priority="53" />
+      <Item value="SelectedValue" priority="80" />
+      <Item value="ByValue" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DemoApp.Core.Actions.ActionText">
+      <Item value="TextToType" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DemoApp.Core.Actions.FindAttributeCollection">
+      <Item value="AttributeList" priority="215" />
+      <Item value="GetObjectData`0" priority="26" />
+      <Item value="TagName" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DemoApp.Core.Actions.ActionElementBase">
+      <Item value="GetObjectData`0" priority="26" />
+      <Item value="ActionFinder" priority="161" />
+      <Item value="ActionElement" priority="26" />
+      <Item value="ActionWindow" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Runtime.Serialization.SerializationInfo">
+      <Item value="AddValue`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlNode">
+      <Item value="SelectSingleNode`0" priority="350" />
+      <Item value="InnerText" priority="377" />
+      <Item value="SelectNodes`0" priority="107" />
+      <Item value="Attributes" priority="269" />
+      <Item value="GetHashCode`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlWriter">
+      <Item value="WriteElementString`0" priority="107" />
+      <Item value="WriteString`0" priority="26" />
+      <Item value="WriteAttributeString`0" priority="80" />
+      <Item value="Close`0" priority="26" />
+      <Item value="WriteStartElement`0" priority="134" />
+      <Item value="WriteEndElement`0" priority="134" />
+      <Item value="Settings" priority="53" />
+      <Item value="WriteValue`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.PropertyInfo">
+      <Item value="Name" priority="161" />
+      <Item value="GetValue`0" priority="53" />
+      <Item value="CanWrite" priority="26" />
+      <Item value="SetValue`0" priority="26" />
+      <Item value="Attributes" priority="26" />
+      <Item value="PropertyType" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DemoApp.Core.Actions.ActionBase">
+      <Item value="GetType`0" priority="107" />
+      <Item value="ActionWindow" priority="134" />
+      <Item value="ConnectedAction" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.Assembly">
+      <Item value="GetType`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.ConstructorInfo">
+      <Item value="Invoke`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpUtility">
+      <Item value="HtmlEncode`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlAttribute">
+      <Item value="Value" priority="243" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DemoApp.Core.Actions.ActionClick">
+      <Item value="ActiveElementAttribute`0" priority="26" />
+      <Item value="NoWait" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DemoApp.Core.Actions.SerializeActionHelper">
+      <Item value="SerializeAction`0" priority="26" />
+      <Item value="SerializeActionListToFile`0" priority="26" />
+      <Item value="DeserializeActionListToFile`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlDocument">
+      <Item value="Load`0" priority="80" />
+      <Item value="DocumentElement" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.FileAssert">
+      <Item value="AreEqual`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlNodeList">
+      <Item value="Count" priority="53" />
+      <Item value="Indexer" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlWriterSettings">
+      <Item value="Indent" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.BindingFlags">
+      <Item value="Public" priority="26" />
+      <Item value="Static" priority="53" />
+      <Item value="Default" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ChangeType`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DemoApp.Core.Actions.ActionNavigate">
+      <Item value="Url" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DemoApp.Core.Actions.ActionSleep">
+      <Item value="Seconds" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DemoApp.Core.BrowserWindowCollection">
+      <Item value="Find`0" priority="26" />
+      <Item value="FindByInternalName`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DemoApp.Core.BrowserWindow">
+      <Item value="InternalName" priority="269" />
+      <Item value="WindowTitle" priority="53" />
+      <Item value="InitialUrl" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DemoApp.Core.Actions.ActionAlertHandler">
+      <Item value="ConnectedAction" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.Core.Actions.ActionSleep">
+      <Item value="Miliseconds" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.Core.Actions.ActionBase">
+      <Item value="ActionWindow" priority="188" />
+      <Item value="ConnectedAction" priority="188" />
+      <Item value="Guid" priority="80" />
+      <Item value="GetType`0" priority="242" />
+      <Item value="WrapAction" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Key" priority="26" />
+      <Item value="Value" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.Core.Actions.ActionAlertHandler">
+      <Item value="ConnectedAction" priority="53" />
+      <Item value="WrapAction" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TestRecorder.Core.Actions.SerializeActionHelper">
+      <Item value="DeserializeActionListFromFile`0" priority="26" />
+      <Item value="SerializeActionListToFile`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.Core.ScriptFactoryManager">
+      <Item value="AddAlertHandler`0" priority="26" />
+      <Item value="RemoveAction`0" priority="53" />
+      <Item value="ActionCount" priority="27" />
+      <Item value="LoadActionsFromFile`0" priority="26" />
+      <Item value="OnActionAdded" priority="26" />
+      <Item value="OnActionRemoved" priority="26" />
+      <Item value="SaveActionsToFile`0" priority="26" />
+      <Item value="SaveCodeToFile`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.Core.CodeGenerators.CodeTemplate">
+      <Item value="CodeLanguage" priority="107" />
+      <Item value="DriverLibrary" priority="80" />
+      <Item value="CanRun" priority="26" />
+      <Item value="FileExtension" priority="53" />
+      <Item value="PropertyTemplate" priority="26" />
+      <Item value="PropertiesInSeparateFile" priority="53" />
+      <Item value="CodePageTemplate" priority="53" />
+      <Item value="PropertyPageTemplate" priority="26" />
+      <Item value="TemplateName" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.Core.CodeGenerators.CodeGenerator">
+      <Item value="SaveCodeToFile`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TestRecorder.Core.CodeGenerators.CodeGenerator">
+      <Item value="GetGenerator`0" priority="26" />
+      <Item value="GetAvailableTemplates`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.Core.BrowserWindow">
+      <Item value="InternalName" priority="161" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="GetFullPath`0" priority="53" />
+      <Item value="Combine`0" priority="26" />
+      <Item value="GetDirectoryName`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Application">
+      <Item value="ExecutablePath" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.Core.CodeGenerators.WatiNCSharp">
+      <Item value="ActionToCode`0" priority="53" />
+      <Item value="Code" priority="53" />
+      <Item value="Properties" priority="189" />
+      <Item value="SaveCodeToFile`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.StringAssert">
+      <Item value="Equals`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.RegularExpressions.Regex">
+      <Item value="Match`0" priority="26" />
+      <Item value="Replace`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Match">
+      <Item value="Groups" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Group">
+      <Item value="Value" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.Core.Actions.ActionNavigate">
+      <Item value="Url" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.Core.Actions.ActionClick">
+      <Item value="ActionFinder" priority="188" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.Core.Actions.FindAttributeCollection">
+      <Item value="TagName" priority="243" />
+      <Item value="AttributeList" priority="135" />
+      <Item value="GetFriendlyName`0" priority="54" />
+      <Item value="GetDescription`0" priority="163" />
+      <Item value="FriendlyName" priority="81" />
+      <Item value="PropertyCode" priority="26" />
+      <Item value="ActionUrl" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.Core.Actions.FindAttribute">
+      <Item value="FindName" priority="134" />
+      <Item value="FindValue" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.Core.Actions.ActionElementBase">
+      <Item value="ActionFinder" priority="243" />
+      <Item value="ActionWindow" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.Core.Actions.ActionSelect">
+      <Item value="ByValue" priority="53" />
+      <Item value="SelectedValue" priority="53" />
+      <Item value="SelectedText" priority="26" />
+      <Item value="ActionFinder" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.Core.Actions.ActionTypeText">
+      <Item value="Overwrite" priority="53" />
+      <Item value="TextToType" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.Core.CodeGenerators.ScriptProperty">
+      <Item value="WindowName" priority="134" />
+      <Item value="PropertyCode" priority="54" />
+      <Item value="Finder" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Doc Comment tags">
+      <Item value="&lt;remarks&gt;&lt;/remarks&gt;" priority="4" />
+      <Item value="&lt;para&gt;&lt;/para&gt;" priority="4" />
+      <Item value="&lt;param name=&quot;&quot;&gt;&lt;/param&gt;" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TestRecorder.Core.BrowserTypes">
+      <Item value="IE" priority="53" />
+      <Item value="FireFox" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripContainer">
+      <Item value="ContentPanel" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripContentPanel">
+      <Item value="Controls" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control+ControlCollection">
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Panel">
+      <Item value="Visible" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripButton">
+      <Item value="Checked" priority="53" />
+      <Item value="ForeColor" priority="81" />
+      <Item value="BackColor" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Red" priority="26" />
+      <Item value="LightGray" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.SystemColors">
+      <Item value="Control" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.OpenFileDialog">
+      <Item value="ShowDialog`0" priority="26" />
+      <Item value="FileName" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DialogResult">
+      <Item value="OK" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListView">
+      <Item value="SelectedItems" priority="53" />
+      <Item value="SelectedIndices" priority="26" />
+      <Item value="Items" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListView+SelectedListViewItemCollection">
+      <Item value="Count" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListViewItem">
+      <Item value="Tag" priority="26" />
+      <Item value="SubItems" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListView+ListViewItemCollection">
+      <Item value="Count" priority="26" />
+      <Item value="Find`0" priority="26" />
+      <Item value="RemoveAt`0" priority="26" />
+      <Item value="Add`0" priority="26" />
+      <Item value="Clear`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TestRecorder.Core.ScriptFactoryManager">
+      <Item value="RemovedActionEvent" priority="25" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListViewItem+ListViewSubItemCollection">
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="Items" priority="80" />
+      <Item value="SelectedItem" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox+ObjectCollection">
+      <Item value="Add`0" priority="26" />
+      <Item value="AddRange`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TestRecorder.SaveScriptDialogControl">
+      <Item value="ShowDialog`0" priority="26" />
+      <Item value="FileDlgFilter" priority="26" />
+      <Item value="FileDlgFileName" priority="53" />
+      <Item value="ddlTemplate" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.5\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <UnitTestSessions>
+    <Session>
+      <Name>Session #1</Name>
+      <Elements />
+    </Session>
+  </UnitTestSessions>
+</Configuration>
