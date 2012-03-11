@@ -4,7 +4,7 @@ namespace TestRecorder.Core.Actions
 {
     public class ActionSelect : ActionElementBase
     {
-        public static string ActionName { get { return "Select List"; } }
+        public override string ActionName { get { return "Select List"; } }
         public bool ByValue { get; set; }
         public string SelectedValue { get; set; }
         public string SelectedText { get; set; }

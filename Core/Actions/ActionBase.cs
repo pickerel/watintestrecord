@@ -24,6 +24,8 @@
 
         internal virtual string Description { get; set; }
 
+        public virtual string ActionName { get; set; }
+
         /// <summary>
         /// simple constructor to set the window
         /// </summary>

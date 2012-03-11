@@ -133,6 +133,7 @@ namespace TestRecorder
                 lvActions.Items.Clear();
                 _scriptManager.OnActionAdded += ActionAdded;
                 _scriptManager.OnActionRemoved += ActionRemoved;
+                _scriptManager.OnActionModified += ActionModified;
 
                 //Restricted
                 //cEXWB1.WBDOCDOWNLOADCTLFLAG = (int)(DOCDOWNLOADCTLFLAG.NO_DLACTIVEXCTLS |
@@ -201,7 +202,7 @@ namespace TestRecorder
                 cEXWB1.FileDownloadDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + Path.DirectorySeparatorChar.ToString(CultureInfo.InvariantCulture);
 
                 cEXWB1.NavToBlank();
-cEXWB1.Navigate2("file:///C:/Work/TestRecorder3/tests/html/main.html");
+                //cEXWB1.Navigate2("file:///C:/Work/TestRecorder3/tests/html/FramesetWithinFrameset.html");
 
                 //Add first tab
                 string sname = cEXWB1.Name;
@@ -845,6 +846,7 @@ cEXWB1.Navigate2("file:///C:/Work/TestRecorder3/tests/html/main.html");
                 return;
             try
             {
+                _scriptManager.AddNavigate(_mCurWb.Name, sUrl);
                 _mCurWb.Navigate(sUrl);
             }
             catch (Exception ee)
@@ -2145,7 +2147,6 @@ cEXWB1.Navigate2("file:///C:/Work/TestRecorder3/tests/html/main.html");
         private void CExwb1NavigateComplete2(object sender, NavigateComplete2EventArgs e)
         {
             if (e.url != "about:blank") comboURL.Text = e.url;
-            if (Recording) _scriptManager.AddNavigate(CurrentBrowserControl.Name, e.url);
         }
 
         //default, cancel = false;
@@ -2922,9 +2923,9 @@ cEXWB1.Navigate2("file:///C:/Work/TestRecorder3/tests/html/main.html");
 
         private void ActionAdded(ActionBase action, int index)
         {
-            string actionType = action.GetType().IsSubclassOf(typeof (ActionElementBase)) ? ((ActionElementBase)action).ActionFinder.TagName:action.GetType().ToString();
+            string actionType = action.GetType().IsSubclassOf(typeof (ActionElementBase)) ? ((ActionElementBase)action).ActionFinder.TagName:action.ActionName;
             int imageIdx = 6; // TODO: determine the image to show, based on tag type
-            switch (actionType)
+            switch (actionType.ToLower())
             {
                 case "checkbox":
                     imageIdx = 0;
@@ -2980,10 +2981,37 @@ cEXWB1.Navigate2("file:///C:/Work/TestRecorder3/tests/html/main.html");
             lvActions.Items.RemoveAt(index);
         }
 
+        private void ActionModified(ActionBase action)
+        {
+            foreach (ListViewItem item in lvActions.Items)
+            {
+                if (item.Tag == action)
+                {
+                    item.SubItems[1].Text = action.Description;
+                    return;
+                }
+            }
+        }
+
         private void TsRecordStartCheckedChanged(object sender, EventArgs e)
         {
             Recording = tsRecordStart.Checked;
             tsRecordStart.BackColor = Recording ? Color.Red : SystemColors.Control;
+        }
+
+        private void lvActions_DoubleClick(object sender, EventArgs e)
+        {
+            if (lvActions.SelectedIndices.Count == 0) return;
+            var frm = new frmModifyFinder();
+            var action = (ActionBase) lvActions.SelectedItems[0].Tag;
+            if (!action.GetType().IsSubclassOf(typeof(ActionElementBase))) return;
+
+            var actionelement = (ActionElementBase) action;
+            frm.SetCheckList(actionelement);
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                 _scriptManager.ChangeActionFinder(actionelement, frm.GetChecked());
+            }
         }
 
     }

@@ -50,7 +50,7 @@ internal class WINDOWNAME : Page
     {
         get
         {
-            ELEMENTTYPE field = _browser.ELEMENTTYPE(ELEMENTFINDCOLLECTION);
+            ELEMENTTYPE field = _browser.FRAMES.ELEMENTTYPE(ELEMENTFINDCOLLECTION);
             field.Description = "ELEMENTDESCRIPTION";
             return field;
         }

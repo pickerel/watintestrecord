@@ -170,6 +170,23 @@ namespace TestRecorder.Core.CodeGenerators
         }
 
         /// <summary>
+        /// creates a string from the list of frames internally
+        /// </summary>
+        /// <param name="frames">list of frames determined for the element</param>
+        /// <returns>string of frames for replacement</returns>
+        internal override string GetFrames(List<FindAttributeCollection> frames)
+        {
+            var builder = new StringBuilder();
+
+            foreach (FindAttributeCollection findAttributes in frames)
+            {
+                builder.Append("Frame("+GetPropertyAttributeString(findAttributes)+").");
+            }
+
+            return builder.ToString();
+        }
+
+        /// <summary>
         /// converts HTML property type object to WatiN specific name
         /// </summary>
         /// <param name="elementType">HTML property type to convert</param>
