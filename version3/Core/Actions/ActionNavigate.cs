@@ -2,9 +2,9 @@
 {
     public class ActionNavigate : ActionBase
     {
-        public static string ActionName { get { return "Navigate"; } }
+        public override string ActionName { get { return "Navigate"; } }
         public static string IconFilename { get { return "Navigate.bmp"; } }
-        internal override string Description { get { return "Go To {0}"; } }
+        internal override string Description { get { return string.Format("Go To {0}", Url); } }
         public string Url { get; set; }
         public ActionNavigate(BrowserWindow window) : base(window) { }
 

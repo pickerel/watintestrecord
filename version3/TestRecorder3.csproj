@@ -105,6 +105,7 @@
     <Compile Include="CustomSplitter.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Core\EmailException.cs" />
     <Compile Include="frmAbout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +153,12 @@
     </Compile>
     <Compile Include="frmDynamicConfirm.Designer.cs">
       <DependentUpon>frmDynamicConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmException.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmException.Designer.cs">
+      <DependentUpon>frmException.cs</DependentUpon>
     </Compile>
     <Compile Include="frmFileDownload.cs">
       <SubType>Form</SubType>
@@ -201,6 +208,12 @@
     <Compile Include="frmLog.Designer.cs">
       <DependentUpon>frmLog.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmModifyFinder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModifyFinder.Designer.cs">
+      <DependentUpon>frmModifyFinder.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPopup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -246,6 +259,9 @@
     <EmbeddedResource Include="frmMain.resx">
       <SubType>Designer</SubType>
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModifyFinder.resx">
+      <DependentUpon>frmModifyFinder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPopup.resx">
       <DependentUpon>frmPopup.cs</DependentUpon>

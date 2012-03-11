@@ -4,7 +4,7 @@ namespace TestRecorder.Core.Actions
 {
     public class ActionFocus : ActionElementBase
     {
-        public static string ActionName { get { return "Focus"; } }
+        public override string ActionName { get { return "Focus"; } }
         public static string IconFilename { get { return "Focus.bmp"; } }
         internal override string Description { get { return string.Format("Focus {0}", ActionFinder.GetDescription()); } }
 

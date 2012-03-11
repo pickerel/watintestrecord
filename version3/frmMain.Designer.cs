@@ -1461,6 +1461,7 @@ namespace TestRecorder
             this.lvActions.TabIndex = 0;
             this.lvActions.UseCompatibleStateImageBehavior = false;
             this.lvActions.View = System.Windows.Forms.View.Details;
+            this.lvActions.DoubleClick += new System.EventHandler(this.lvActions_DoubleClick);
             // 
             // hdrType
             // 

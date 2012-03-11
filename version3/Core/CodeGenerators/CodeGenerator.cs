@@ -59,6 +59,7 @@ namespace TestRecorder.Core.CodeGenerators
         public abstract void ActionToCode(ActionBase action);
         public abstract string GetPropertyAttributeString(FindAttributeCollection finder);
         internal abstract string GetPropertyType(string elementType);
+        internal abstract string GetFrames(List<FindAttributeCollection> frames);
         public abstract string CreateBrowser(string windowName, BrowserTypes browser = BrowserTypes.IE, string initialUrl = "");
 
         /// <summary>
@@ -136,8 +137,8 @@ namespace TestRecorder.Core.CodeGenerators
         public static List<CodeTemplate> GetAvailableTemplates(string fileExtension="", string templatepath = "")
         {
             if (fileExtension == "*.*") fileExtension = "";
-            string path = Path.GetDirectoryName(Application.ExecutablePath);                       
-            path = Path.Combine(path, "templates");
+            string path = Path.GetDirectoryName(Application.ExecutablePath);
+            if (path != null) path = Path.Combine(path, "templates");
             if (!string.IsNullOrEmpty(templatepath)) path = templatepath; 
 
             var templateList = new List<CodeTemplate>();
@@ -206,8 +207,10 @@ namespace TestRecorder.Core.CodeGenerators
                 return;
 
             string propertyType = GetPropertyType(action.ActionFinder.TagName);
+            string frames = GetFrames(action.ActionFrames);
 
             string property = Template.PropertyTemplate;
+            property = Regex.Replace(property, "FRAMES\\.", frames); // replacing the dot too
             property = Regex.Replace(property, "ELEMENTTYPE", propertyType);
             property = Regex.Replace(property, "ELEMENTNAME", friendlyName);
             property = Regex.Replace(property, "ELEMENTDESCRIPTION", action.ActionFinder.GetDescription());

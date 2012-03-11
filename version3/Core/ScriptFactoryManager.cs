@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Collections.Specialized;
 using IfacesEnumsStructsClasses;
 using TestRecorder.Core.Actions;
 using TestRecorder.Core.CodeGenerators;
@@ -32,6 +33,8 @@ namespace TestRecorder.Core
         public RemovedActionEvent OnActionRemoved;
         public delegate void AddedActionEvent(ActionBase action, int index);
         public AddedActionEvent OnActionAdded;
+        public delegate void ModifiedActionEvent(ActionBase action);
+        public ModifiedActionEvent OnActionModified;
 
         /// <summary>
         /// loads actions from file
@@ -253,6 +256,14 @@ namespace TestRecorder.Core
                 _actionList.Insert(index, action.WrapAction);
 
             OnActionAdded(action, index);
+        }
+
+        public void ChangeActionFinder(ActionElementBase action, NameValueCollection nvcFinder)
+        {
+            if (action == null) return;
+            action.ActionFinder.SetAttributes(nvcFinder);
+
+            OnActionModified(action);
         }
 
         /// <summary>

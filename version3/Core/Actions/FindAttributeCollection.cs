@@ -37,7 +37,7 @@ namespace TestRecorder.Core.Actions
         /// <summary>
         /// private ordered list of attributes to find
         /// </summary>
-        private readonly List<string> _localPattern;
+        private List<string> _localPattern;
 
         /// <summary>
         /// constructor to populate find mechanism
@@ -48,8 +48,20 @@ namespace TestRecorder.Core.Actions
         public FindAttributeCollection(IHTMLElement element=null, List<string> findPattern=null, string url=null)
         {
             ActionUrl = url;
+            if (element == null) return;
+            GetFindAttributes(element, findPattern);
+        }
 
-            if (element==null) return;
+        /// <summary>
+        /// method to get find attributes. This both populates the instance list 
+        /// and returns the instance list when used to find the frame
+        /// </summary>
+        /// <param name="element">element to find parent of</param>
+        /// <param name="findPattern">optional ordered attribute list. should be for testing only</param>
+        /// <returns>instance list of attributes</returns>
+        public List<FindAttribute> GetFindAttributes(IHTMLElement element = null, List<string> findPattern = null)
+        {
+            if (element==null) return null;
 
             ActionElement = element;
 
@@ -73,6 +85,8 @@ namespace TestRecorder.Core.Actions
             {
                 if (IsolateAttribute(includeIdx, availableAttributes, table)) break;
             }
+
+            return _attributes;
         }
 
         /// <summary>
@@ -126,7 +140,7 @@ namespace TestRecorder.Core.Actions
         /// </summary>
         /// <param name="element">element to evaluate</param>
         /// <returns>NameValueCollection of available attributes actually listed in the HTML</returns>
-        private NameValueCollection GetAvailableAttributes(IHTMLElement element)
+        public NameValueCollection GetAvailableAttributes(IHTMLElement element)
         {
             var nvcAvailableAttributes = new NameValueCollection();
             IHTMLAttributeCollection elementAttributes = ((IHTMLDOMNode)element).attributes;
@@ -233,6 +247,10 @@ namespace TestRecorder.Core.Actions
             return builder.ToString();
         }
 
+        /// <summary>
+        /// creates a friendly description for this collection
+        /// </summary>
+        /// <returns>string description of the collection</returns>
         public string GetDescription()
         {
             var builder = new StringBuilder();
@@ -242,6 +260,24 @@ namespace TestRecorder.Core.Actions
             }
             builder = builder.Remove(builder.Length - 2, 2);
             return builder.ToString();
+        }
+
+        /// <summary>
+        /// clears the attribute list and takes the parameter as the new list
+        /// </summary>
+        /// <param name="nvcAttributes">new list of attributes to set</param>
+        public void SetAttributes(NameValueCollection nvcAttributes)
+        {
+            _attributes.Clear();
+            foreach (string attributekey in nvcAttributes)
+            {
+                _attributes.Add(new FindAttribute(attributekey, nvcAttributes[attributekey]));
+            }
+        }
+
+        public bool KeyExists(string key)
+        {
+            return _attributes.Exists(attribute => attribute.FindName == key);
         }
     }
 }
