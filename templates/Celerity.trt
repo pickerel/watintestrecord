@@ -1,0 +1,27 @@
+<Settings>
+  <TemplateName>Celerity</TemplateName>
+  <DriverLibrary>Celerity</DriverLibrary>
+  <CodeLanguage>Ruby</CodeLanguage>
+  <CanRun>1</CanRun>
+  <FileExtension>*.rb</FileExtension>
+<TestCode>
+require "rubygems"
+require "celerity"
+
+PAGECODE
+
+TESTCODE
+</TestCode>
+<PropertyPage separatefile="0">
+class WINDOWNAME : Page
+    def initialize(browser)
+    	@browser = browser
+	  end
+
+    PROPERTYCODE
+end
+</PropertyPage>
+<Property>
+@ELEMENTNAME = @browser.FRAMES.ELEMENTTYPE(ELEMENTFINDCOLLECTION)
+</Property>
+</Settings>
