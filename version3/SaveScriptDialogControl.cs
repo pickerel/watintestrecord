@@ -13,7 +13,7 @@ namespace TestRecorder
 
         private void SaveScriptDialogControlEventFilterChanged(System.Windows.Forms.IWin32Window sender, int index)
         {
-            string selectedFilter = GetSelectedFilter();
+            string selectedFilter = GetSelectedFilter(index);
             var templateList = CodeGenerator.GetAvailableTemplates(selectedFilter);
             ddlTemplate.Items.Clear();
             templateList.ForEach(t => ddlTemplate.Items.Add(t));
@@ -21,11 +21,11 @@ namespace TestRecorder
                 ddlTemplate.SelectedIndex = 0;
         }
 
-        public string GetSelectedFilter()
+        public string GetSelectedFilter(int index)
         {
             var regexObj = new Regex(@"\|(\*\.[a-z0-9*]+)", RegexOptions.IgnoreCase);
             MatchCollection saveFilters = regexObj.Matches(FileDlgFilter);
-            return saveFilters[FileDlgFilterIndex].Groups[1].Value;
+            return saveFilters[index-1].Groups[1].Value;
         }
     }
 }
