@@ -3,6 +3,7 @@ using System.Collections.Specialized;
 using System.Data;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using IfacesEnumsStructsClasses;
 
 namespace TestRecorder.Core.Actions
@@ -24,7 +25,11 @@ namespace TestRecorder.Core.Actions
 
         public string TagName
         {
-            get { return ActionElement == null ? _tagName : GetTagName(ActionElement); }
+            get { 
+                if (_tagName == null && ActionElement != null)
+                    _tagName = GetTagName(ActionElement);
+                return _tagName;
+            }
             set { SetTagName(value); }
         }
         private string _tagName;
@@ -49,6 +54,8 @@ namespace TestRecorder.Core.Actions
         {
             ActionUrl = url;
             if (element == null) return;
+            ActionElement = element;
+            _tagName = GetTagName(element);
             GetFindAttributes(element, findPattern);
         }
 
@@ -240,8 +247,10 @@ namespace TestRecorder.Core.Actions
 
             if (_attributes.Count > 0)
             {
-                int strLength = _attributes[0].FindValue.Length > 15 ? 15 : _attributes[0].FindValue.Length;
-                builder.Append(UppercaseFirstLetter(_attributes[0].FindValue.Substring(0,strLength)));
+                string findvalue = _attributes[0].FindValue;
+                findvalue = Regex.Replace(findvalue, "[^a-z0-9_]", "", RegexOptions.IgnoreCase);
+                int strLength = findvalue.Length > 15 ? 15 : findvalue.Length;
+                builder.Append(UppercaseFirstLetter(findvalue.Substring(0,strLength)));
             }
 
             return builder.ToString();

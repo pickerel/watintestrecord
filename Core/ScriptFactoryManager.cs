@@ -81,6 +81,7 @@ namespace TestRecorder.Core
         {
             ActionBase action = null;
             if (activeElement == null) return null;
+            if (activeElement is IHTMLBodyElement) return null;
 
             if (activeElement is IHTMLSelectElement
                 || activeElement is IHTMLTextAreaElement

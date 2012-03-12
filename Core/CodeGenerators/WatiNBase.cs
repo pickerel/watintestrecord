@@ -218,6 +218,9 @@ namespace TestRecorder.Core.CodeGenerators
                 case "textarea":
                     propertyType = "TextField";
                     break;
+                default:
+                    propertyType = "Element";
+                    break;
             }
             return propertyType;
         }
