@@ -4,6 +4,7 @@
     {
         IE = 0,
         FireFox = 1,
-        Chrome = 2
+        Chrome = 2,
+        HtmlUnit = 3
     }
 }

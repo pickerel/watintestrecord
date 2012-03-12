@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Linq;
 using System.Reflection;
 using System.Xml;
@@ -76,20 +77,36 @@ namespace TestRecorder.Core.Actions
 
             if (action.GetType().IsSubclassOf(typeof (ActionElementBase)))
             {
-                string tagname = ((ActionElementBase) action).ActionFinder.ActionElement.tagName.ToLower();
-
-                if (tagname == "input")
-                {
-                    IHTMLElement element = ((ActionElementBase) action).ActionFinder.ActionElement;
-                    object typeobject = element.getAttribute("type", 0);
-                    tagname = typeobject != null ? typeobject.ToString() : "Text";
-                }
-                tagname = char.ToUpper(tagname[0]) + tagname.Substring(1).ToLower();
-                SerializeFindAttributes(writer, tagname, 
-                    ((ActionElementBase) action).ActionFinder.ActionUrl,
-                    ((ActionElementBase) action).ActionFinder);
+                var actionElement = (ActionElementBase) action;
+                string tagname = ((ActionElementBase) action).ActionFinder.TagName;
+                SerializeFrames(writer, actionElement.ActionFrames);
+                SerializeFindAttributes(writer, tagname,
+                                        actionElement.ActionFinder.ActionUrl,
+                                        actionElement.ActionFinder);
+                SerializeAllAttributes(writer, actionElement.AllAttributes);
             }
 
+
+            writer.WriteEndElement();
+        }
+
+        private static void SerializeFrames(XmlWriter writer, IEnumerable<FindAttributeCollection> frameCollection)
+        {
+            writer.WriteStartElement("FrameCollection");
+            foreach (FindAttributeCollection frameFinder in frameCollection)
+            {
+                SerializeFindAttributes(writer, "Frame", frameFinder.ActionUrl, frameFinder);
+            }
+            writer.WriteEndElement();
+        }
+
+        private static void SerializeAllAttributes(XmlWriter writer, NameValueCollection allAttributes)
+        {
+            writer.WriteStartElement("AllAttributeCollection");
+            foreach (string key in allAttributes)
+            {
+                writer.WriteElementString(key, allAttributes[key]);
+            }
             writer.WriteEndElement();
         }
 
@@ -211,7 +228,10 @@ namespace TestRecorder.Core.Actions
                 ci = classType.GetConstructor(new[] {typeof (BrowserWindow), typeof (IHTMLElement), typeof(string)});
                 if (ci == null) return null;
                 action = (ActionBase) ci.Invoke(new object[] {browser, null, actionUrl});
-                ((ActionElementBase) action).ActionFinder = DeserializeFindAttributes(actionNode);
+                var actionElement = (ActionElementBase) action;
+                actionElement.ActionFinder = DeserializeFindAttributes(actionNode);
+                actionElement.ActionFrames = DeserializeFrames(actionNode);
+                actionElement.AllAttributes = DeserializeAllAttributes(actionNode);
             }
             else
             {
@@ -246,6 +266,30 @@ namespace TestRecorder.Core.Actions
             if (conversionType == null || !conversionType.IsSerializable) return;
             object newvalue = Convert.ChangeType(singleNode.InnerText, conversionType);
             info.SetValue(action, newvalue, null);
+        }
+
+        private static NameValueCollection DeserializeAllAttributes(XmlNode actionNode)
+        {
+            var allattributes = new NameValueCollection();
+            XmlNode attributeCollectionNode = actionNode.SelectSingleNode("AllAttributeCollection");
+            if (attributeCollectionNode != null)
+                foreach (XmlNode node in attributeCollectionNode.ChildNodes)
+                {
+                    allattributes.Add(node.Name, node.InnerText);
+                }
+            return allattributes;
+        }
+
+        private static List<FindAttributeCollection> DeserializeFrames(XmlNode actionNode)
+        {
+            var frames = new List<FindAttributeCollection>();
+            XmlNode frameCollectionNode = actionNode.SelectSingleNode("FrameCollection");
+            if (frameCollectionNode == null) return frames;
+            foreach (XmlNode frameNode in frameCollectionNode.ChildNodes)
+            {
+                DeserializeFindAttributes(frameNode);
+            }
+            return frames;
         }
 
         /// <summary>

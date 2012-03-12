@@ -73,6 +73,7 @@ namespace TestRecorder.Core.Actions
             if (frameCollection.frameElement == null) return null;
             var frameElement = (IHTMLElement) frameCollection.frameElement;
             var actionfinder = new FindAttributeCollection();
+            actionfinder.ActionUrl = frameCollection.location.toString();
             List<FindAttribute> attributes = actionfinder.GetFindAttributes(frameElement);
             if (attributes.Count > 0) ActionFrames.Add(actionfinder);
             return (HTMLFrameBase) frameElement;

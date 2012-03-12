@@ -11,7 +11,7 @@ namespace TestRecorder.Core.CodeGenerators
         public ScriptProperty(string windowName, string propertyCode, FindAttributeCollection finder=null)
         {
             WindowName = windowName;
-            PropertyCode = propertyCode;
+            PropertyCode = propertyCode.Trim();
             if (finder != null)
                 Finder = finder;
         }

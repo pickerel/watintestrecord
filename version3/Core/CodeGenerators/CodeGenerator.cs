@@ -45,14 +45,24 @@ namespace TestRecorder.Core.CodeGenerators
         public static CodeGenerator GetGenerator(CodeTemplate template)
         {
             CodeGenerator generator = null;
-            if (template.DriverLibrary == "WatiN")
+            if (template.CodeLanguage == "Ruby")
+            {
+                if (template.DriverLibrary == "Celerity")
+                    generator = new RubyCelerity(template);
+                else if (template.DriverLibrary == "WatiR")
+                    generator = new RubyWatiR(template);
+            }
+            else if (template.DriverLibrary == "WatiN")
             {
                 if (template.CodeLanguage == "C#")
                     generator = new WatiNCSharp(template);
-                if (template.CodeLanguage == "VB.Net")
+                else if (template.CodeLanguage == "VB.Net")
                     generator = new WatiNCSharp(template);
             }
-
+            if (generator == null)
+            {
+                throw new FileNotFoundException("No mapping found for generator template");
+            }
             return generator;
         }
 
@@ -70,7 +80,7 @@ namespace TestRecorder.Core.CodeGenerators
         /// <param name="browserType">browser type to use</param>
         public void SaveCodeToFile(string filename, List<ActionBase> actionList, BrowserTypes browserType = BrowserTypes.IE)
         {
-            var builder = new StringBuilder();
+            var codeBuilder = new StringBuilder();
 
             BrowserType = browserType;
 
@@ -80,34 +90,61 @@ namespace TestRecorder.Core.CodeGenerators
             }
 
             // do the code page replacement
-            Code.ForEach(line => builder.AppendLine(line));
-            string codePage = Regex.Replace(Template.CodePageTemplate, "TESTCODE", builder.ToString());
+            Code.ForEach(line => codeBuilder.AppendLine(line));
+            string codePage = Regex.Replace(Template.CodePageTemplate, "TESTCODE", codeBuilder.ToString().Trim());
 
             // now for the properties
-            builder.Length = 0;
+            var pageBuilder = new StringBuilder();
+            codeBuilder.Length = 0;
             Properties.Sort((a, b) => String.CompareOrdinal(a.WindowName, b.WindowName));
             string lastWindow = Properties.Count > 0 ? Properties[0].WindowName : "";
+            string leadingSpace = Regex.Match(Template.PropertyPageTemplate, @"([ \t]+)PROPERTYCODE", RegexOptions.IgnoreCase).Groups[1].Value;
             foreach (ScriptProperty scriptProperty in Properties)
             {
                 if (scriptProperty.WindowName != lastWindow
                     && Template.PropertiesInSeparateFile)
                 {
-                    WritePropertyPage(filename, lastWindow, builder.ToString());
+                    WritePropertyPage(filename, lastWindow, codeBuilder.ToString());
                     lastWindow = scriptProperty.WindowName;
+                    codeBuilder.Clear();
+                }
+                else if (scriptProperty.WindowName != lastWindow)
+                {
+                    pageBuilder.AppendLine(GetPropertyClass(lastWindow, codeBuilder.ToString()));
+                    lastWindow = scriptProperty.WindowName;
+                    codeBuilder.Clear();
                 }
 
-                builder.AppendLine(scriptProperty.PropertyCode);
+                if (codeBuilder.Length > 0) codeBuilder.Append(leadingSpace);
+                codeBuilder.AppendLine(scriptProperty.PropertyCode);
+            }
+
+            // treat the last property class
+            if (Template.PropertiesInSeparateFile)
+            {
+                WritePropertyPage(filename, lastWindow, codeBuilder.ToString());
+            }
+            else 
+            {
+                pageBuilder.AppendLine(GetPropertyClass(lastWindow, codeBuilder.ToString()));
             }
 
             if (Template.PropertiesInSeparateFile)
             {
-                WritePropertyPage(filename, lastWindow, builder.ToString());
+                WritePropertyPage(filename, lastWindow, codeBuilder.ToString());
             }
             else
             {
-                codePage = Regex.Replace(codePage, "PROPERTYCODE", builder.ToString());                
+                codePage = Regex.Replace(codePage, "PAGECODE", pageBuilder.ToString());                
             }
             File.WriteAllText(filename, codePage);
+        }
+
+        private string GetPropertyClass(string windowName, string propertyCode)
+        {
+            string property = Regex.Replace(Template.PropertyPageTemplate, "PROPERTYCODE", propertyCode.TrimEnd());
+            property = Regex.Replace(property, "WINDOWNAME", "Page" + windowName);
+            return property;
         }
 
         /// <summary>
