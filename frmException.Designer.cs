@@ -28,13 +28,10 @@ namespace TestRecorder
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmException));
             this.label1 = new System.Windows.Forms.Label();
             this.lblError = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnSend = new System.Windows.Forms.Button();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.label8 = new System.Windows.Forms.Label();
             this.chkCopy = new System.Windows.Forms.CheckBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -97,17 +94,10 @@ namespace TestRecorder
             this.btnSend.Text = "Send Error Report";
             this.btnSend.UseVisualStyleBackColor = true;
             // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Fuchsia;
-            this.imageList1.Images.SetKeyName(0, "Error.bmp");
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.ImageIndex = 0;
-            this.label8.ImageList = this.imageList1;
             this.label8.Location = new System.Drawing.Point(5, 4);
             this.label8.MinimumSize = new System.Drawing.Size(0, 40);
             this.label8.Name = "label8";
@@ -193,7 +183,7 @@ namespace TestRecorder
             this.label4.Size = new System.Drawing.Size(460, 13);
             this.label4.TabIndex = 10;
             this.label4.Text = "We have created an error report that you can send to us. We will treat this repor" +
-                "t as confidential.";
+    "t as confidential.";
             // 
             // label3
             // 
@@ -276,7 +266,6 @@ namespace TestRecorder
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnSend;
-        private System.Windows.Forms.ImageList imageList1;
         public System.Windows.Forms.Label lblError;
         private System.Windows.Forms.Label label8;
         public System.Windows.Forms.CheckBox chkCopy;

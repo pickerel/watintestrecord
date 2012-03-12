@@ -92,6 +92,9 @@
     <Compile Include="Core\BrowserWindow.cs" />
     <Compile Include="Core\CodeGenerators\CodeGenerator.cs" />
     <Compile Include="Core\CodeGenerators\CodeTemplate.cs" />
+    <Compile Include="Core\CodeGenerators\RubyBase.cs" />
+    <Compile Include="Core\CodeGenerators\RubyCelerity.cs" />
+    <Compile Include="Core\CodeGenerators\RubyWatiR.cs" />
     <Compile Include="Core\CodeGenerators\ScriptProperty.cs" />
     <Compile Include="Core\CodeGenerators\WatiNBase.cs" />
     <Compile Include="Core\CodeGenerators\WatiNCSharp.cs" />
@@ -256,6 +259,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmException.resx">
+      <DependentUpon>frmException.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <SubType>Designer</SubType>
       <DependentUpon>frmMain.cs</DependentUpon>
