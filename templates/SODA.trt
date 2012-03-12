@@ -1,0 +1,12 @@
+<Settings>
+  <TemplateName>SODA</TemplateName>
+  <DriverLibrary>SODA</DriverLibrary>
+  <CodeLanguage>SODA</CodeLanguage>
+  <CanRun>1</CanRun>
+  <FileExtension>*.xml</FileExtension>
+<TestCode>
+TESTCODE
+</TestCode>
+<PropertyPage separatefile="0"/>
+<Property/>
+</Settings>

@@ -96,6 +96,7 @@
     <Compile Include="Core\CodeGenerators\RubyCelerity.cs" />
     <Compile Include="Core\CodeGenerators\RubyWatiR.cs" />
     <Compile Include="Core\CodeGenerators\ScriptProperty.cs" />
+    <Compile Include="Core\CodeGenerators\SodaBase.cs" />
     <Compile Include="Core\CodeGenerators\WatiNBase.cs" />
     <Compile Include="Core\CodeGenerators\WatiNCSharp.cs" />
     <Compile Include="Core\CodeGenerators\WatiNVBNet.cs" />
