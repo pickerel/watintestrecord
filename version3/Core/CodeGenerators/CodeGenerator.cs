@@ -45,7 +45,12 @@ namespace TestRecorder.Core.CodeGenerators
         public static CodeGenerator GetGenerator(CodeTemplate template)
         {
             CodeGenerator generator = null;
-            if (template.CodeLanguage == "Ruby")
+
+            if (template.DriverLibrary == "SODA")
+            {
+                generator = new SodaBase(template);
+            }
+            else if (template.CodeLanguage == "Ruby")
             {
                 if (template.DriverLibrary == "Celerity")
                     generator = new RubyCelerity(template);
@@ -66,6 +71,10 @@ namespace TestRecorder.Core.CodeGenerators
             return generator;
         }
 
+        public virtual string FileCodeWrapping(string code)
+        {
+            return code;
+        }
         public abstract void ActionToCode(ActionBase action);
         public abstract string GetPropertyAttributeString(FindAttributeCollection finder);
         internal abstract string GetPropertyType(string elementType);
@@ -137,6 +146,8 @@ namespace TestRecorder.Core.CodeGenerators
             {
                 codePage = Regex.Replace(codePage, "PAGECODE", pageBuilder.ToString());                
             }
+
+            codePage = FileCodeWrapping(codePage);
             File.WriteAllText(filename, codePage);
         }
 

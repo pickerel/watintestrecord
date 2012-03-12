@@ -13,9 +13,10 @@ namespace TestRecorder
 
         private void SaveScriptDialogControlEventFilterChanged(System.Windows.Forms.IWin32Window sender, int index)
         {
+            ddlTemplate.Items.Clear();
+            if (index == 1) return;
             string selectedFilter = GetSelectedFilter(index);
             var templateList = CodeGenerator.GetAvailableTemplates(selectedFilter);
-            ddlTemplate.Items.Clear();
             templateList.ForEach(t => ddlTemplate.Items.Add(t));
             if (ddlTemplate.Items.Count > 0)
                 ddlTemplate.SelectedIndex = 0;

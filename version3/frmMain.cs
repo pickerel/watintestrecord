@@ -2892,7 +2892,7 @@ namespace TestRecorder
             var saveDlg = new SaveScriptDialogControl();
             saveDlg.FileDlgFilter = Settings.GetConfigSettingString("CodeSaveFileDialogFilter");
             if (saveDlg.ShowDialog(this) != DialogResult.OK) return;
-            if (saveDlg.GetSelectedFilter(saveDlg.FileDlgFilterIndex) == "*.xml")
+            if (saveDlg.FileDlgFilterIndex==1)
                 _scriptManager.SaveActionsToFile(saveDlg.FileDlgFileName);
             else _scriptManager.SaveCodeToFile((CodeTemplate)saveDlg.ddlTemplate.SelectedItem, saveDlg.FileDlgFileName);
         }
