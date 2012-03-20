@@ -307,6 +307,15 @@
     </Compile>
     <Compile Include="Settings.cs" />
     <Compile Include="WinExternal.cs" />
+    <None Include="Templates\Celerity.trt" />
+    <None Include="Templates\CSharpConsole.trt" />
+    <None Include="Templates\CSharpNUnit.trt" />
+    <None Include="Templates\CSharpVS08.trt" />
+    <None Include="Templates\SODA.trt" />
+    <None Include="Templates\VBNetConsole.trt" />
+    <None Include="Templates\VBNetNUnit.trt" />
+    <None Include="Templates\VBNetVS08.trt" />
+    <None Include="Templates\WatiR.trt" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="frmFind.resx">
